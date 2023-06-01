@@ -3,7 +3,7 @@ home: true
 icon: home
 title: ChatGPT-Plugin文档
 #heroImage: /assets/image/l.png
-heroImage: /logo.png
+heroImage: https://ikechan8370.oss-cn-beijing.aliyuncs.com/images/232115814-de9a0633-371f-4733-8da0-dd6e912c8a1e.png
 bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
