@@ -1,7 +1,7 @@
 ---
 title: 云崽ChatGPT-PLUGIN问题合集
 index: false
-icon: laptop-code
+icon: book
 author: 鹤望兰
 category:
   - 常见问题

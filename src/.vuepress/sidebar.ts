@@ -4,7 +4,7 @@ export default sidebar({
   "/": [
     "",
     {
-      text: "支持的模式",
+      text: "AI模型",
       icon: "laptop-code",
       prefix: "tutorial/",
       link: "tutorial/",
@@ -15,6 +15,13 @@ export default sidebar({
       icon: "book",
       prefix: "guide/",
       link: "guide/",
+      children: "structure",
+    },
+    {
+      text: "视频教程",
+      icon: "video",
+      prefix: "video/",
+      link: "video/",
       children: "structure",
     },
   ],
