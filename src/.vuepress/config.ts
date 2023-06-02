@@ -1,5 +1,6 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
+import { searchProPlugin } from "vuepress-plugin-search-pro";
 
 export default defineUserConfig({
   base: "/",
@@ -19,6 +20,11 @@ export default defineUserConfig({
         'data-website-id': '2ba9d94e-736d-4f32-a49e-5ea8bb58f327',
         src: 'https://umami.geyinchi.cn/umami.js'
       }]
+  ],
+  plugins: [
+    searchProPlugin({
+      indexContent: true
+    })
   ]
 });
 

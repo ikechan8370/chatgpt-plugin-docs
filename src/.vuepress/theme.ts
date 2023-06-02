@@ -1,6 +1,7 @@
 import { hopeTheme } from "vuepress-theme-hope";
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
+import { searchProPlugin } from "vuepress-plugin-search-pro";
 
 export default hopeTheme({
   hostname: "https://chatgptplugin.ikechan8370.com",
@@ -35,6 +36,9 @@ export default hopeTheme({
   },
 
   plugins: {
+    copyCode: {},
+    sitemap: true,
+    seo: true,
     // You should generate and use your own comment service
     comment: {
       provider: "Giscus",
