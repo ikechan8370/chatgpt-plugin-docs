@@ -1,22 +1,18 @@
 ---
-title: 常见问题
+title: 云崽ChatGPT-PLUGIN问题合集
 index: false
 icon: laptop-code
+author: 鹤望兰
 category:
   - 常见问题
 ---
-
-## 常见问题
-
-# 云崽ChatGPT-PLUGIN问题合集
 
 -   \[收集＆编写:鹤望兰]
 -   QQ群：559567232
 -   如果觉得插件有意思的话请点一个star让作者有更多动力更新！
 
 ### 遇到报错优先尝试 #结束全部对话 或者执行 #chatgpt更新来确定你是最新版本
-
-###  每天都要开心点
+<details> <summary>每天都要开心点</summary>
 
 ![](image/BA37ABEE8557D7122D47B295D73E1407_79_wJ699Ji.jpg)
 
@@ -28,7 +24,9 @@ category:
 
 ![](image/F8FD5B540DA63F5479008351E24CB307_IBEeeG2sqR.jpg)
 
-###   StarRail-plugin（星穹铁道插件）
+</details>
+
+<details> <summary>StarRail-plugin（星穹铁道插件）</summary>
 
 Gitee：
 
@@ -42,12 +40,12 @@ Github：
 
 QQ群：758447726 欢迎大佬进群玩
 
+</details>
 
 ###   大佬，你们的电脑都是一直开着的嘛？为什么我一关电脑就用不了了
 
-yunzai的问题，建议rm -rf  (bushi
-
 可以挂服务器上，可以去阿里云白嫖七个月
+
 ###   **icqq**登陆失败：Token已失效
 
 可以优先尝试方法一，其他方法为方法一无效时的对应方案！并且所有方法都选择密码登录，并且最后一步选择手机验证码登陆
@@ -648,9 +646,11 @@ ki11 -9 PID #杀死占用端口的进程
 因为你在向一个已归档的频道发送信息，可以解除已归档的频道发送限制并重新发送消息
 
 ![](image/yyyy.jpg)
-###   关于插件的详细教程可以去大佬博客看看
+###   关于插件的详细教程可以去[大佬博客](https://blog.hanhanz.top "https://blog.hanhanz.top")看看
 
-[https://blog.hanhanz.top](https://blog.hanhanz.top "https://blog.hanhanz.top")
+###   反代搭建等可以去[https://ikechan8370.com](https://ikechan8370.com)看看有没有惊喜
+
+
 ###   如果觉得教程对你有帮助的话请我喝瓶茉莉花茶吧QvQ
 
 ![](image/QQ图片20230419175725_4JMPIcDwE1.png)
