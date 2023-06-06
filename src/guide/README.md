@@ -167,7 +167,7 @@ https://bing.roki.best
 </summary>
 
 
-推荐使用锅巴进行配置 配置config文件对小白不太友好
+推荐使用锅巴进行配置，直接配置config文件对小白不太友好
 
 首先你需要下载一个锅巴插件 在确定锅巴插件载入成功后对机器人发送 #锅巴登录 之后根据自身情况选择内网还是外网登录
 
@@ -189,9 +189,9 @@ proxy不是必填项，如果你有proxy的话可以进行配置，没有的话�
 </summary>
 被抢指令了，其他插件的结束对话会回复“已经重置对话了！”和图1一样，但实际上这并不是本插件的回复，本插件的结束对话回复如图2所示
 
-![](image/bbb.jpg)
+![](image/FakeReset.jpg)
 
-![](image/40CAD0FF1C85F4B90CDFE905521FA6FF_22ZKwesBZe.jpg)
+![](image/ReallyReset.jpg)
 </details>
 
 <details> 
@@ -210,23 +210,23 @@ proxy不是必填项，如果你有proxy的话可以进行配置，没有的话�
 
         首先在控制面板中搜索环境变量，点击编辑系统环境变量
 
-        ![](image/cccc.png)
+        ![](image/FFmpegVariable-1.png)
 
         点击系统属性中的环境变量
 
-        ![](image/dddd.png)
+        ![](image/FFmpegVariable-2.png)
 
         点击环境变量中的系统变量，用鼠标选中Path，点击编辑
 
-        ![](image/2F9D45A2680F93AB6F599296E906DBDE_YKmNaTKlxQ.jpg)
+        ![](image/FFmpegVariable-3.jpg)
 
         点击编辑环境变量右侧的新建，将你的ffmpeg big目录完整路径粘贴进去，然后依次点击确定保存
 
-        ![](image/021E7F4592A5D0B27EE4AE8DC4E9C1B7_9tz8x__Jxx.jpg)
+        ![](image/FFmpegVariable-4.jpg)
 
         &#x20;在终端执行：ffmpeg -version 查看是否完成配置 如果出现下图样式则代表配置完成
 
-        ![](image/aaaa.png)
+        ![](image/FFmpegVariable-5.png)
 
 
     -   第二种方法（不推荐）：到Yunzai-Bot\config\config 目录下修改bot.yaml
@@ -236,7 +236,7 @@ proxy不是必填项，如果你有proxy的话可以进行配置，没有的话�
         ```纯文本
         # ffmpeg
         ffmpeg_path: D:\Yunzai-Bot\ffmpeg\bin\ffmpeg.exe      
-        ffprobe_path: D:\Yunzai-Bot\ffmpeg\bin\ffprobe.exe                        ps：我是直接扔在了yunzai的根目录下，所以我这样填写,放在哪里填哪里
+        ffprobe_path: D:\Yunzai-Bot\ffmpeg\bin\ffprobe.exe                        PS：我是直接扔在了yunzai的根目录下，所以我这样填写。你的ffmpeg放在哪里填哪里
         ```
         完成后保存文件，重启你的yunzai就可以正常发\[语音]了
 -   centos解决办法
@@ -295,7 +295,7 @@ proxy不是必填项，如果你有proxy的话可以进行配置，没有的话�
 
     在终端执行：在终端执行：ffmpeg -version 查看是否完成配置 ，出现下图样式则为配置成功
 
-    ![](image/BD9BEB4912EC185B6B37420F32A7911D_pxA16v834D.png)
+    ![](image/FFmpegCentos.png)
 -   ubuntu和 debian解决办法
 
     极其简单，执行以下命令之后按照教程设置一下即可：
@@ -314,7 +314,7 @@ proxy不是必填项，如果你有proxy的话可以进行配置，没有的话�
     ```
     出现以下，就安装完了
 
-    ![](image/wwww.png)
+    ![](image/FFmpegCentos-2.png)
 
     接下来就要配置yunzai的了
 
@@ -330,11 +330,11 @@ proxy不是必填项，如果你有proxy的话可以进行配置，没有的话�
 
     输入完成后会弹出一长段东西
 
-    ![](image/qqqq.png)
+    ![](image/FFmpegCentos-YunzaiConfig.png)
 
     这就表示你进入了编辑模式，接下来按"i"进入编辑模式，下面要是出现了这句话就表示进入了
 
-    ![](image/ssss.png)
+    ![](image/FFmpegCentos-YunzaiConfig-2.png)
 
     修改这些
 
@@ -345,21 +345,21 @@ proxy不是必填项，如果你有proxy的话可以进行配置，没有的话�
 
     ```
 
-    ![](image/kkkk.png)
+    ![](image/FFmpegCentos-YunzaiConfig-3.png)
 
     这样子你就成功的添加了他的二进制文件的位置了，按"Esc"键退出编辑模式，
 
-    ![](image/tttt.png)
+    ![](image/FFmpegCentos-YunzaiConfig-4.png)
 
     继续输入":"进入模式选择，接下来输入"wq"后回车，保存文件
 
-    ![](image/zzzz.png)
+    ![](image/FFmpegCentos-YunzaiConfig-5.png)
 
     注意要回车
 
     重启你的yunzai，这样子你的ffmpeg就设置完成了\~
 
-    ![](image/pppp.jpg)
+    ![](image/FFmpegCentos-YunzaiConfig-6.jpg)
 </details>
 
 <details> 
@@ -371,26 +371,29 @@ proxy不是必填项，如果你有proxy的话可以进行配置，没有的话�
 
     首先 你需要注册一个 Huggingface 账号 ([huggingface.co](http://huggingface.co "huggingface.co"))
 
-    ![注册/登录 Hugging Face账号](image/image_F2PKqIpwAR.png "注册/登录 Hugging Face账号")
+    ![注册/登录 Hugging Face账号](image/Huggingface-Register.png "注册/登录 Hugging Face账号")
 -   获取API以及如何配置
 
-    进入[https://huggingface.co/spaces/ikechan8370/vits-uma-genshin-honkai ](https://huggingface.co/spaces/ikechan8370/vits-uma-genshin-honkai "https://huggingface.co/spaces/ikechan8370/vits-uma-genshin-honkai ")然后点击右上角竖着排列的三个点，选择第二项Duplicate this Space，修改Visibility，将Private改成Public，然后点Duplicate Space按钮即可  注意是从这个库里复制你的API 从原来的库里复制是没有view api的
+    进入
 
-    ![复制文字转角色语音仓库](image/image_lMOdfnh89e.png "复制文字转角色语音仓库")
+    [https://huggingface.co/spaces/ikechan8370/vits-uma-genshin-honkai ](https://huggingface.co/spaces/ikechan8370/vits-uma-genshin-honkai "https://huggingface.co/spaces/ikechan8370/vits-uma-genshin-honkai ")然后点击右上角竖着排列的三个点，选择第二项Duplicate this Space，修改Visibility，将Private改成Public，然后点Duplicate Space按钮即可  注意是从这个库里复制你的API 从原来的库里复制是没有view api的
 
-    ![设置为公开并复制项目 注意！！！必须要是Public，否则无法使用](image/image_sdptTTt8aX.png "设置为公开并复制项目 注意！！！必须要是Public，否则无法使用")
+    ![复制文字转角色语音仓库](image/Huggingface-ForkRepo.png "复制文字转角色语音仓库")
+
+    ![设置为公开并复制项目 注意！！！必须要是Public，否则无法使用](image/Huggingface-Public.png "设置为公开并复制项目 注意！！！必须要是Public，否则无法使用")
 
     最后等待上方的Building变成Running 下滑到最底 点击view api 复制你的api地址在锅巴配置即可
 
-    ![](image/image_5VwOEM_Tlh.png)
+    ![](image/Huggingface-Building.png)
 
-    ![](image/image_DEYPfHXdPN.png)
+    ![](image/Huggingface-Api.png)
 
     注意去掉最后的斜杠
 
-    ![填入ChatGPT-Plugin的锅巴设置页面中的 ”语音转换API地址“内即可食用](image/ppVhxhD_uLeNn8qbN-.png "填入ChatGPT-Plugin的锅巴设置页面中的 ”语音转换API地址“内即可食用")
+    ![](image/Huggingface-ALLAPI.png)
 
-    ![](image/image_eL05AcVjoZ.png)
+    ![](image/Huggingface-Guoba.png)
+    填入ChatGPT-Plugin的锅巴设置页面中的 ”语音转换API地址“内即可食用
 </details>
 
 <details> 
