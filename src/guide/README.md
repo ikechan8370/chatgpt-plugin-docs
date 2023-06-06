@@ -406,8 +406,8 @@ API 3的Token怎么获取和绑定
 -   你会获得类似如下一串json字符串`{"user":{"id":"AAA","name":"BBB","email":"CCC","image":"DDD","picture":"EEE","groups":[]},"expires":"FFF","accessToken":"XXX"}`
 -   其中的XXX即为`ChatGPT AccessToken`&#x20;
 -   对机器人发送#chatgpt设置Token （Token和命令需要分开发）
-    ![](image/9A03C23AC6225075D37DD2C0735CF3CA_khz2iZXAWk.jpg)
-    ![](image/CE9F99445C3AF0440A27C2C735971C98_M7SRKbaLhV.jpg)
+    ![](image/ChatGPT-API3-TOKEN.jpg)
+    ![](image/ChatGPT-API3-TOKEN-SET.jpg)
 </details>
 
 <details> 
@@ -426,7 +426,7 @@ API模式下报错：request to  https://api.openai.com/v1/chat/completions  fai
 </summary>
 API和API3都被墙了，需要换成反代或者你有proxy也可以进行配置
 
-![](image/image_K86IAy4D5K.png)
+![](image/ChatGPT-API-CETimeout.png)
 </details>
 
 
@@ -440,7 +440,7 @@ API模式下报错 错误码401
 
 [https://platform.openai.com/account/api-keys](https://platform.openai.com/account/api-keys "https://platform.openai.com/account/api-keys")
 
-![](image/280F4F6EBDE08211C2B60AE4FED803B7_cENaHVAa2r.jpg)
+![](image/ChatGPT-GetApiKey.jpg)
 </details>
 
 
@@ -450,7 +450,7 @@ API模式下报错 错误码401
 </summary>
 账号额度用完了 或者试用时间到期了 检查自己账号额度以及时间是否没问题
 
-![](image/vvvv.jpg)
+![](image/ChatGPT-API-429.jpg)
 </details>
 
 <details> 
@@ -468,7 +468,7 @@ API模式下报错 错误码 404
 
 [https://openai-api.ikechan8370.com/v1](https://openai-api.ikechan8370.com/v1?spm=wolai.workspace.0.0.7b176cfbRYVb3t "https://openai-api.ikechan8370.com/v1")（如果未配置该项可以忽略）
 
-![](image/4A1B303E2F527CB363FC895480DE4668_TLVfN_VhWV.jpg)
+![](image/ChatGPT-API-404.jpg)
 </details>
 
 
@@ -478,7 +478,7 @@ API模式下报错 TimeoutError
 </summary>
 可以尝试挂反代或者去锅巴将超时时间调长
 
-![](image/oooo.png)
+![](image/ChatGPT-API-TimeoutError.png)
 </details>
 
 
@@ -488,7 +488,7 @@ API 3模式下报错 错误码 401
 </summary>
 Token过期了，重新获取一下Token就好了
 
-![](image/7E936F8817B3D421F044451104CD503B_Q9M7O9w2uA.jpg)
+![](image/ChatGPT-API3-401.jpg)
 </details>
 
 <details> 
@@ -497,7 +497,7 @@ API 3模式下报错 错误码 403
 </summary>
 可能是openai账号被封禁了 检查账号邮箱是否有openai官方给你发的邮件，如果有的话 那么就是账号被封禁了 ，只能换取没被封号的账号token
 
-![](image/QQ图片20230331200358_wUaUmBda3y.png)
+![](image/ChatGPT-API3-403.png)
 </details>
 
 <details> 
@@ -506,7 +506,7 @@ API 3模式下报错 错误码 500
 </summary>
 检查自己的Token是否设置正确，请设置access Token，因为session Token容易失效
 
-![](image/hhhh.jpg)
+![](image/ChatGPT-API3-500.jpg)
 </details>
 
 <details> 
@@ -548,7 +548,7 @@ Bing Sydney模式下 一直重复发抱歉
 </summary>
 可以试试结束对话 或者换个问题解决，比较玄学。（也可能是读取聊天消息导致）
 
-![](image/QQ图片20230331192155_LQEuaEVN-A.jpg)
+![](image/Sydney-ReSorry.jpg)
 </details>
 
 <details> 
@@ -557,7 +557,7 @@ Bing 自设定模式下重复发抱歉
 </summary>
 可尝试换句话继续对话，有点运气成分或者编写设定的一些问题存在，比如特殊的屏蔽词等。也可能是由读取聊天消息导致的
 
-![](image/QQ图片20230331193059_WXJWJe316J.jpg)
+![](image/Sydney-Custom-Sorry.jpg)
 
 如果持续重复抱歉 说明这段对话已经被结束了 只能发生 #结束对话 重新开启对话
 </details>
@@ -576,7 +576,7 @@ Bing模式使用设定时显示：当前为Bing模式，暂不支持使用设定
 </summary>
 请注意，目前Bing共有五种模式，如果想要使用设定请注意切换自设定模式 发送  #chatgpt必应切换自设定 即可
 
-![](image/QQ图片20230331191541_HaOq-sAw6X.jpg)
+![](image/Sydney-BingCustom-Cant.jpg)
 </details>
 
 <details> 
@@ -612,9 +612,8 @@ Bing模式下导入设定报错：Cannot destructrue prepetry 'prompt' of 'r.dat
 </summary>
 检查指令格式是否正确  #chatgpt导入设定＋设定名字   请注意：不要带有任何符号 包括用空格隔开导入设定和设定名字 会导致找不到该设定从而出现报错
 
-![](image/image_XUYB7wN2NB.png)
-![](image/image_lS6Da6NOZO.png)
-![](image/image_lS6Da6NOZO.png)
+![](image/Sydney-null-Error-1.png)
+![](image/Sydney-null-Error-1.png)
 </details>
 
 
