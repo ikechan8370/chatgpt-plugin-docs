@@ -626,7 +626,7 @@ Bing模式下导入设定报错：Cannot destructrue prepetry 'prompt' of 'r.dat
 
 也有可能是你设置了多Token 而其中一个过期了 删掉过期的那个即可
 
-![](image/QQ图片20230331200600_moBtqiw9CT.jpg)
+![](image/Sydney-Token-EXP.jpg)
 </details>
 
 
@@ -636,7 +636,7 @@ Bing 模式下报错：Oops, I think we 've reached the end of this conversation
 </summary>
 你可能用的不是Sydney或者自设定模式，其他三种模式有对话上限，可以发 #结束对话 重新创建对话
 
-![](image/pppp.png)
+![](image/Bing-NewTopic-Up.png)
 </details>
 
 
@@ -646,7 +646,7 @@ Bing 模式下报错：Oops, I think we 've reached the end of this conversation
 </summary>
 你的账号使用Sydney或者自设定模式过多 达到了日限流额  可等待12h后重新获取token再配置解决。
 
-![](image/QQ图片20230331185951_wvtXlnRd1p.jpg)
+![](image/Sydney-Request-Man.jpg)
 
 也可以换成还没有限流的号的token解决
 
@@ -668,7 +668,7 @@ Bing Sydney 模式下报错  创建Sydney对话失败：stadus code：404Not Fou
 </summary>
 更新之后锅巴内没有关闭思考提示这一选项，需要手动对机器人发送指令#chatgpt关闭问题确认
 
-![](image/QQ图片20230331193546_izeOlBqss1.jpg)
+![](image/Sydney-Sikaoing.jpg)
 </details>
 
 
@@ -678,7 +678,7 @@ vits语音角色如何更换
 </summary>
 对机器人发送#chatgpt设置语音角色＋角色名 可使用的角色可在vits仓库进行查看
 
-![](image/QQ图片20230331193654_7i6mpH6I8H.jpg)
+![](image/MuiscChanger.jpg)
 </details>
 
 <details> 
