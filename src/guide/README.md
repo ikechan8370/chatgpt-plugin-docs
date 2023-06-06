@@ -687,7 +687,7 @@ vits语音角色如何更换
 </summary>
 指令被土块抢了，去锅巴/群组配置/功能黑名单 找到土块的原神语音把它禁用了就可以了
 
-![](image/D43C725C87065FC9964F6790D418AEFB_sl4MChJrXx.jpg)
+![](image/Voice-Tukuai.jpg)
 </details>
 
 <details> 
@@ -720,7 +720,7 @@ API使用设定时容易忘记设定内容
 </summary>
 依赖掉了，去插件目录里执行pnpm install -p 装一下依赖，然后重启机器人就好了
 
-![](image/2304859B5C649C1C1297DEDFD0ECE038_A2SXrUIJYZ.jpg)
+![](image/No-package.jpg)
 </details>
 
 <details> 
@@ -771,7 +771,7 @@ pm2 update
 
     2.在配置界面中选择桌面C++环境开发，如果为了节省空间，右边的配置和我一样就行
 
-    ![](image/46541eecff51a97f_yutKLI7MWE.png)
+    ![](image/Voice-Node-Slilk.png)
 
     3.等待下载完成后重启电脑，选择登陆方式，然后选择搭建新项目，选择控制台应用
 
@@ -855,11 +855,11 @@ ki11 -9 PID #杀死占用端口的进程
 
     进入后点击入站规则，右侧点击新建规则，如下图
 
-    ![](image/QQ截图20230418185035_EtrIWONF-w.png)
+    ![](image/Port-1.png)
 
     选择端口，点下一页
 
-    ![](image/QQ截图20230418185054_nCaIeUG3Uh.png)
+    ![](image/Port-2.png)
 
     端口处输入要开放的端口，这里默认是3321，如果进行了修改请自行改为你设置的端口，接下来全选下一页即可。
 -   Linux服务器
@@ -895,13 +895,13 @@ ki11 -9 PID #杀死占用端口的进程
 
 如果是轻量应用服务器，可以在服务器的安全→防火墙中进行配置
 
-![](image/QQ截图20230418191327_Hld2WShOk0.png)
+![](image/Port-3.png)
 
 如果是ECS服务器，需要在实例的安全组中进行配置
 
-![](image/QQ截图20230418191747_WGvChKAfY_.png)
+![](image/Port-4.png)
 
-![](image/QQ截图20230418192013_cir24k5k5A.png)
+![](image/Port-5.png)
 </details>
 
 
@@ -925,7 +925,7 @@ Claude模式下报错：Error：An API error occurred is\_archived
 </summary>
 因为你在向一个已归档的频道发送信息，可以解除已归档的频道发送限制并重新发送消息
 
-![](image/yyyy.jpg)
+![](image/Claude-Error_CARCH.jpg)
 </details>
 
 
@@ -936,4 +936,4 @@ Claude模式下报错：Error：An API error occurred is\_archived
 
 ###   如果觉得教程对你有帮助的话请我喝瓶茉莉花茶吧QvQ
 
-![](image/QQ图片20230419175725_4JMPIcDwE1.png)
+![](image/donate.png)
