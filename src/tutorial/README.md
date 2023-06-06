@@ -1,5 +1,5 @@
 ---
-title: 支持的模式
+title: AI模型
 index: false
 icon: laptop-code
 category:

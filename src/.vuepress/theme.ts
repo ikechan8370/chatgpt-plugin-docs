@@ -47,7 +47,11 @@ export default hopeTheme({
       category: "Announcements",
       categoryId: "DIC_kwDOJqKvdM4CW4ih",
     },
-
+    components: {
+      components: [
+        "VideoPlayer",
+      ]
+    },
     // All features are enabled for demo, only preserve features you need here
     mdEnhance: {
       align: true,
@@ -88,7 +92,7 @@ export default hopeTheme({
       sup: true,
       tabs: true,
       vPre: true,
-      vuePlayground: true,
+      vuePlayground: true
     },
 
     // uncomment these if you want a pwa
