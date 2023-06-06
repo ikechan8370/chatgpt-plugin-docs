@@ -11,20 +11,20 @@ category:
 -   QQ群：559567232
 -   如果觉得插件有意思的话请点一个star让作者有更多动力更新！
 ### 遇到报错优先尝试 #结束全部对话 或者执行 #chatgpt更新来确定你是最新版本
-如果问题合集没有你的问题或者无法解决你的问题，请发Issue或进群询问。
+如果问题合集没有你的问题或者无法解决你的问题，请发Issue或[进群](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=W1o7KVZpZL0dzyHQH71W4JMF4Mgj0_rr&authKey=hcLg%2F6y5Fr4BUNNF2khPLRb2nwahfXWvE1lhHr%2FK%2FEDlGFUBweLQt%2F%2BXxoUuya8J&noverify=0&group_code=559567232)询问。
 
 ## 号外
 <details> <summary>每天都要开心点</summary>
 
-![](image/BA37ABEE8557D7122D47B295D73E1407_79_wJ699Ji.jpg)
+![](image/happy-1.jpg)
 
-![](image/3B1A6B298AAE7967BE598B9B56E0C8B2__z1Z5QG_LZ.jpg)
+![](image/happy-2.jpg)
 
-![](image/-e2b869ba00a1ab7_NIRZyk7uPo.jpg)
+![](image/happy-3.jpg)
 
-![](image/rrrr.png)
+![](image/happy-4.png)
 
-![](image/F8FD5B540DA63F5479008351E24CB307_IBEeeG2sqR.jpg)
+![](image/happy-5.jpg)
 
 </details>
 
@@ -36,16 +36,16 @@ StarRail-plugin 星穹铁道插件
 </summary>
 
 Gitee：
-
-[https://gitee.com/hewang1an/StarRail-plugin](https://gitee.com/hewang1an/StarRail-plugin "https://gitee.com/hewang1an/StarRail-plugin")
-
-Github：
-
-[https://github.com/hewang1an/StarRail-plugin](https://github.com/hewang1an/StarRail-plugin "https://github.com/hewang1an/StarRail-plugin")
-
+```纯文本
+https://gitee.com/hewang1an/StarRail-plugin
+```
+  Github：
+```纯文本
+https://github.com/hewang1an/StarRail-plugin
+```
 和ikechan8370一起写的插件，如果对你有帮助的话点个star吧！
 
-QQ群：758447726 欢迎大佬进群玩
+QQ群：758447726 欢迎大佬们进群玩
 
 </details>
 
@@ -55,7 +55,7 @@ QQ群：758447726 欢迎大佬进群玩
 <summary>
 大佬，你们的电脑都是一直开着的嘛？为什么我一关电脑就用不了了
 </summary>
-可以挂服务器上，可以去阿里云白嫖七个月
+> 可以挂服务器上，可以去阿里云白嫖七个月
 </details>
 
 <details> 
@@ -120,15 +120,44 @@ apt-get install ca-certificates fonts-liberation libasound2 libatk-bridge2.0-0 l
 <summary>
 如何配置反代以及反代地址
 </summary>
-首先进入锅巴插件 ，点击ChatGPT插件进行配置，将以下各对应反代地址填进你要用的模式
+首先进入锅巴插件 ，点击ChatGPT插件进行配置，将以下各对应Sydney反代地址(不是代理地址)填进你要用的模式
 
-API(openAiBaseUrl): [https://openai-api.ikechan8370.com/v1](https://openai-api.ikechan8370.com/v1 "https://openai-api.ikechan8370.com/v1")或[https://openai-api2.ikechan8370.com/v1](https://openai-api2.ikechan8370.com/v1 "https://openai-api2.ikechan8370.com/v1")或[https://mondstadt.d201.eu.org/v1](https://mondstadt.d201.eu.org/v1?spm=wolai.workspace.0.0.7b17767bSF7Lu3 "https://mondstadt.d201.eu.org/v1")
+【API(openAiBaseUrl)】
+```纯文本
+https://openai-api.ikechan8370.com/v1
+```
+```纯文本
+https://openai-api2.ikechan8370.com/v1
+```
+```纯文本
+https://mondstadt.d201.eu.org/v1
+```
 
-API3: api: [https://chatgpt.ikechan8370.com/backend-api/conversation](https://chatgpt.ikechan8370.com/backend-api/conversation "https://chatgpt.ikechan8370.com/backend-api/conversation")或 [https://pimon.d201.cn/backend-api/conversation](https://pimon.d201.cn/backend-api/conversation "https://pimon.d201.cn/backend-api/conversation")
 
-apiBaseUrl:  [https://chatgpt.ikechan8370.com/backend-api](https://chatgpt.ikechan8370.com/backend-api "https://chatgpt.ikechan8370.com/backend-api") 或 [https://pimon.d201.cn/backend-api](https://pimon.d201.cn/backend-api "https://pimon.d201.cn/backend-api")
-
-Bing： [https://bing.ikechan8370.com](https://bing.ikechan8370.com "https://bing.ikechan8370.com") 或 [https://666102.201666.xyz](https://666102.201666.xyz "https://666102.201666.xyz")
+【API3】
+```纯文本
+https://chatgpt.ikechan8370.com/backend-api/conversation
+```
+```纯文本
+https://pimon.d201.cn/backend-api/conversation
+```
+【apiBaseUrl】
+```纯文本
+https://chatgpt.ikechan8370.com/backend-api
+```
+```纯文本
+https://pimon.d201.cn/backend-api
+```
+【Bing】
+```纯文本
+https://bing.ikechan8370.com
+```
+```纯文本
+https://666102.201666.xyz
+```
+```纯文本
+https://bing.roki.best
+```
 
 </details>
 
@@ -144,7 +173,7 @@ Bing： [https://bing.ikechan8370.com](https://bing.ikechan8370.com "https://bin
 
 进入锅巴后找到ChatGPT插件点击 选择配置 配置好你的代理（没有可以不用填）or反代，以及各种你需要的东西，按需配置
 
-![](image/QQ图片20230401185711_DO-REL3ODr.png)
+![](image/GuobaConfig.png)
 </details>
 
 <details> 
