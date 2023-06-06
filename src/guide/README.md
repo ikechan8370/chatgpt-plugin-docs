@@ -11,20 +11,20 @@ category:
 -   QQ群：559567232
 -   如果觉得插件有意思的话请点一个star让作者有更多动力更新！
 ### 遇到报错优先尝试 #结束全部对话 或者执行 #chatgpt更新来确定你是最新版本
-如果问题合集没有你的问题或者无法解决你的问题，请发Issue或进群询问。
+如果问题合集没有你的问题或者无法解决你的问题，请发Issue或[进群](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=W1o7KVZpZL0dzyHQH71W4JMF4Mgj0_rr&authKey=hcLg%2F6y5Fr4BUNNF2khPLRb2nwahfXWvE1lhHr%2FK%2FEDlGFUBweLQt%2F%2BXxoUuya8J&noverify=0&group_code=559567232)询问。
 
 ## 号外
 <details> <summary>每天都要开心点</summary>
 
-![](image/BA37ABEE8557D7122D47B295D73E1407_79_wJ699Ji.jpg)
+![](image/happy-1.jpg)
 
-![](image/3B1A6B298AAE7967BE598B9B56E0C8B2__z1Z5QG_LZ.jpg)
+![](image/happy-2.jpg)
 
-![](image/-e2b869ba00a1ab7_NIRZyk7uPo.jpg)
+![](image/happy-3.jpg)
 
-![](image/rrrr.png)
+![](image/happy-4.png)
 
-![](image/F8FD5B540DA63F5479008351E24CB307_IBEeeG2sqR.jpg)
+![](image/happy-5.jpg)
 
 </details>
 
@@ -36,16 +36,16 @@ StarRail-plugin 星穹铁道插件
 </summary>
 
 Gitee：
-
-[https://gitee.com/hewang1an/StarRail-plugin](https://gitee.com/hewang1an/StarRail-plugin "https://gitee.com/hewang1an/StarRail-plugin")
-
-Github：
-
-[https://github.com/hewang1an/StarRail-plugin](https://github.com/hewang1an/StarRail-plugin "https://github.com/hewang1an/StarRail-plugin")
-
+```纯文本
+https://gitee.com/hewang1an/StarRail-plugin
+```
+  Github：
+```纯文本
+https://github.com/hewang1an/StarRail-plugin
+```
 和ikechan8370一起写的插件，如果对你有帮助的话点个star吧！
 
-QQ群：758447726 欢迎大佬进群玩
+QQ群：758447726 欢迎大佬们进群玩
 
 </details>
 
@@ -55,7 +55,7 @@ QQ群：758447726 欢迎大佬进群玩
 <summary>
 大佬，你们的电脑都是一直开着的嘛？为什么我一关电脑就用不了了
 </summary>
-可以挂服务器上，可以去阿里云白嫖七个月
+> 可以挂服务器上，可以去阿里云白嫖七个月
 </details>
 
 <details> 
@@ -120,15 +120,44 @@ apt-get install ca-certificates fonts-liberation libasound2 libatk-bridge2.0-0 l
 <summary>
 如何配置反代以及反代地址
 </summary>
-首先进入锅巴插件 ，点击ChatGPT插件进行配置，将以下各对应反代地址填进你要用的模式
+首先进入锅巴插件 ，点击ChatGPT插件进行配置，将以下各对应Sydney反代地址(不是代理地址)填进你要用的模式
 
-API(openAiBaseUrl): [https://openai-api.ikechan8370.com/v1](https://openai-api.ikechan8370.com/v1 "https://openai-api.ikechan8370.com/v1")或[https://openai-api2.ikechan8370.com/v1](https://openai-api2.ikechan8370.com/v1 "https://openai-api2.ikechan8370.com/v1")或[https://mondstadt.d201.eu.org/v1](https://mondstadt.d201.eu.org/v1?spm=wolai.workspace.0.0.7b17767bSF7Lu3 "https://mondstadt.d201.eu.org/v1")
+【API(openAiBaseUrl)】
+```纯文本
+https://openai-api.ikechan8370.com/v1
+```
+```纯文本
+https://openai-api2.ikechan8370.com/v1
+```
+```纯文本
+https://mondstadt.d201.eu.org/v1
+```
 
-API3: api: [https://chatgpt.ikechan8370.com/backend-api/conversation](https://chatgpt.ikechan8370.com/backend-api/conversation "https://chatgpt.ikechan8370.com/backend-api/conversation")或 [https://pimon.d201.cn/backend-api/conversation](https://pimon.d201.cn/backend-api/conversation "https://pimon.d201.cn/backend-api/conversation")
 
-apiBaseUrl:  [https://chatgpt.ikechan8370.com/backend-api](https://chatgpt.ikechan8370.com/backend-api "https://chatgpt.ikechan8370.com/backend-api") 或 [https://pimon.d201.cn/backend-api](https://pimon.d201.cn/backend-api "https://pimon.d201.cn/backend-api")
-
-Bing： [https://bing.ikechan8370.com](https://bing.ikechan8370.com "https://bing.ikechan8370.com") 或 [https://666102.201666.xyz](https://666102.201666.xyz "https://666102.201666.xyz")
+【API3】
+```纯文本
+https://chatgpt.ikechan8370.com/backend-api/conversation
+```
+```纯文本
+https://pimon.d201.cn/backend-api/conversation
+```
+【apiBaseUrl】
+```纯文本
+https://chatgpt.ikechan8370.com/backend-api
+```
+```纯文本
+https://pimon.d201.cn/backend-api
+```
+【Bing】
+```纯文本
+https://bing.ikechan8370.com
+```
+```纯文本
+https://666102.201666.xyz
+```
+```纯文本
+https://bing.roki.best
+```
 
 </details>
 
@@ -138,13 +167,13 @@ Bing： [https://bing.ikechan8370.com](https://bing.ikechan8370.com "https://bin
 </summary>
 
 
-推荐使用锅巴进行配置 配置config文件对小白不太友好
+推荐使用锅巴进行配置，直接配置config文件对小白不太友好
 
 首先你需要下载一个锅巴插件 在确定锅巴插件载入成功后对机器人发送 #锅巴登录 之后根据自身情况选择内网还是外网登录
 
 进入锅巴后找到ChatGPT插件点击 选择配置 配置好你的代理（没有可以不用填）or反代，以及各种你需要的东西，按需配置
 
-![](image/QQ图片20230401185711_DO-REL3ODr.png)
+![](image/GuobaConfig.png)
 </details>
 
 <details> 
@@ -160,9 +189,9 @@ proxy不是必填项，如果你有proxy的话可以进行配置，没有的话�
 </summary>
 被抢指令了，其他插件的结束对话会回复“已经重置对话了！”和图1一样，但实际上这并不是本插件的回复，本插件的结束对话回复如图2所示
 
-![](image/bbb.jpg)
+![](image/FakeReset.jpg)
 
-![](image/40CAD0FF1C85F4B90CDFE905521FA6FF_22ZKwesBZe.jpg)
+![](image/ReallyReset.jpg)
 </details>
 
 <details> 
@@ -181,23 +210,23 @@ proxy不是必填项，如果你有proxy的话可以进行配置，没有的话�
 
         首先在控制面板中搜索环境变量，点击编辑系统环境变量
 
-        ![](image/cccc.png)
+        ![](image/FFmpegVariable-1.png)
 
         点击系统属性中的环境变量
 
-        ![](image/dddd.png)
+        ![](image/FFmpegVariable-2.png)
 
         点击环境变量中的系统变量，用鼠标选中Path，点击编辑
 
-        ![](image/2F9D45A2680F93AB6F599296E906DBDE_YKmNaTKlxQ.jpg)
+        ![](image/FFmpegVariable-3.jpg)
 
         点击编辑环境变量右侧的新建，将你的ffmpeg big目录完整路径粘贴进去，然后依次点击确定保存
 
-        ![](image/021E7F4592A5D0B27EE4AE8DC4E9C1B7_9tz8x__Jxx.jpg)
+        ![](image/FFmpegVariable-4.jpg)
 
         &#x20;在终端执行：ffmpeg -version 查看是否完成配置 如果出现下图样式则代表配置完成
 
-        ![](image/aaaa.png)
+        ![](image/FFmpegVariable-5.png)
 
 
     -   第二种方法（不推荐）：到Yunzai-Bot\config\config 目录下修改bot.yaml
@@ -207,7 +236,7 @@ proxy不是必填项，如果你有proxy的话可以进行配置，没有的话�
         ```纯文本
         # ffmpeg
         ffmpeg_path: D:\Yunzai-Bot\ffmpeg\bin\ffmpeg.exe      
-        ffprobe_path: D:\Yunzai-Bot\ffmpeg\bin\ffprobe.exe                        ps：我是直接扔在了yunzai的根目录下，所以我这样填写,放在哪里填哪里
+        ffprobe_path: D:\Yunzai-Bot\ffmpeg\bin\ffprobe.exe                        PS：我是直接扔在了yunzai的根目录下，所以我这样填写。你的ffmpeg放在哪里填哪里
         ```
         完成后保存文件，重启你的yunzai就可以正常发\[语音]了
 -   centos解决办法
@@ -266,7 +295,7 @@ proxy不是必填项，如果你有proxy的话可以进行配置，没有的话�
 
     在终端执行：在终端执行：ffmpeg -version 查看是否完成配置 ，出现下图样式则为配置成功
 
-    ![](image/BD9BEB4912EC185B6B37420F32A7911D_pxA16v834D.png)
+    ![](image/FFmpegCentos.png)
 -   ubuntu和 debian解决办法
 
     极其简单，执行以下命令之后按照教程设置一下即可：
@@ -285,7 +314,7 @@ proxy不是必填项，如果你有proxy的话可以进行配置，没有的话�
     ```
     出现以下，就安装完了
 
-    ![](image/wwww.png)
+    ![](image/FFmpegCentos-2.png)
 
     接下来就要配置yunzai的了
 
@@ -301,11 +330,11 @@ proxy不是必填项，如果你有proxy的话可以进行配置，没有的话�
 
     输入完成后会弹出一长段东西
 
-    ![](image/qqqq.png)
+    ![](image/FFmpegCentos-YunzaiConfig.png)
 
     这就表示你进入了编辑模式，接下来按"i"进入编辑模式，下面要是出现了这句话就表示进入了
 
-    ![](image/ssss.png)
+    ![](image/FFmpegCentos-YunzaiConfig-2.png)
 
     修改这些
 
@@ -316,21 +345,21 @@ proxy不是必填项，如果你有proxy的话可以进行配置，没有的话�
 
     ```
 
-    ![](image/kkkk.png)
+    ![](image/FFmpegCentos-YunzaiConfig-3.png)
 
     这样子你就成功的添加了他的二进制文件的位置了，按"Esc"键退出编辑模式，
 
-    ![](image/tttt.png)
+    ![](image/FFmpegCentos-YunzaiConfig-4.png)
 
     继续输入":"进入模式选择，接下来输入"wq"后回车，保存文件
 
-    ![](image/zzzz.png)
+    ![](image/FFmpegCentos-YunzaiConfig-5.png)
 
     注意要回车
 
     重启你的yunzai，这样子你的ffmpeg就设置完成了\~
 
-    ![](image/pppp.jpg)
+    ![](image/FFmpegCentos-YunzaiConfig-6.jpg)
 </details>
 
 <details> 
@@ -342,26 +371,29 @@ proxy不是必填项，如果你有proxy的话可以进行配置，没有的话�
 
     首先 你需要注册一个 Huggingface 账号 ([huggingface.co](http://huggingface.co "huggingface.co"))
 
-    ![注册/登录 Hugging Face账号](image/image_F2PKqIpwAR.png "注册/登录 Hugging Face账号")
+    ![注册/登录 Hugging Face账号](image/Huggingface-Register.png "注册/登录 Hugging Face账号")
 -   获取API以及如何配置
 
-    进入[https://huggingface.co/spaces/ikechan8370/vits-uma-genshin-honkai ](https://huggingface.co/spaces/ikechan8370/vits-uma-genshin-honkai "https://huggingface.co/spaces/ikechan8370/vits-uma-genshin-honkai ")然后点击右上角竖着排列的三个点，选择第二项Duplicate this Space，修改Visibility，将Private改成Public，然后点Duplicate Space按钮即可  注意是从这个库里复制你的API 从原来的库里复制是没有view api的
+    进入
 
-    ![复制文字转角色语音仓库](image/image_lMOdfnh89e.png "复制文字转角色语音仓库")
+    [https://huggingface.co/spaces/ikechan8370/vits-uma-genshin-honkai ](https://huggingface.co/spaces/ikechan8370/vits-uma-genshin-honkai "https://huggingface.co/spaces/ikechan8370/vits-uma-genshin-honkai ")然后点击右上角竖着排列的三个点，选择第二项Duplicate this Space，修改Visibility，将Private改成Public，然后点Duplicate Space按钮即可  注意是从这个库里复制你的API 从原来的库里复制是没有view api的
 
-    ![设置为公开并复制项目 注意！！！必须要是Public，否则无法使用](image/image_sdptTTt8aX.png "设置为公开并复制项目 注意！！！必须要是Public，否则无法使用")
+    ![复制文字转角色语音仓库](image/Huggingface-ForkRepo.png "复制文字转角色语音仓库")
+
+    ![设置为公开并复制项目 注意！！！必须要是Public，否则无法使用](image/Huggingface-Public.png "设置为公开并复制项目 注意！！！必须要是Public，否则无法使用")
 
     最后等待上方的Building变成Running 下滑到最底 点击view api 复制你的api地址在锅巴配置即可
 
-    ![](image/image_5VwOEM_Tlh.png)
+    ![](image/Huggingface-Building.png)
 
-    ![](image/image_DEYPfHXdPN.png)
+    ![](image/Huggingface-Api.png)
 
     注意去掉最后的斜杠
 
-    ![填入ChatGPT-Plugin的锅巴设置页面中的 ”语音转换API地址“内即可食用](image/ppVhxhD_uLeNn8qbN-.png "填入ChatGPT-Plugin的锅巴设置页面中的 ”语音转换API地址“内即可食用")
+    ![](image/Huggingface-ALLAPI.png)
 
-    ![](image/image_eL05AcVjoZ.png)
+    ![](image/Huggingface-Guoba.png)
+    填入ChatGPT-Plugin的锅巴设置页面中的 ”语音转换API地址“内即可食用
 </details>
 
 <details> 
@@ -374,8 +406,8 @@ API 3的Token怎么获取和绑定
 -   你会获得类似如下一串json字符串`{"user":{"id":"AAA","name":"BBB","email":"CCC","image":"DDD","picture":"EEE","groups":[]},"expires":"FFF","accessToken":"XXX"}`
 -   其中的XXX即为`ChatGPT AccessToken`&#x20;
 -   对机器人发送#chatgpt设置Token （Token和命令需要分开发）
-    ![](image/9A03C23AC6225075D37DD2C0735CF3CA_khz2iZXAWk.jpg)
-    ![](image/CE9F99445C3AF0440A27C2C735971C98_M7SRKbaLhV.jpg)
+    ![](image/ChatGPT-API3-TOKEN.jpg)
+    ![](image/ChatGPT-API3-TOKEN-SET.jpg)
 </details>
 
 <details> 
@@ -394,7 +426,7 @@ API模式下报错：request to  https://api.openai.com/v1/chat/completions  fai
 </summary>
 API和API3都被墙了，需要换成反代或者你有proxy也可以进行配置
 
-![](image/image_K86IAy4D5K.png)
+![](image/ChatGPT-API-CETimeout.png)
 </details>
 
 
@@ -408,7 +440,7 @@ API模式下报错 错误码401
 
 [https://platform.openai.com/account/api-keys](https://platform.openai.com/account/api-keys "https://platform.openai.com/account/api-keys")
 
-![](image/280F4F6EBDE08211C2B60AE4FED803B7_cENaHVAa2r.jpg)
+![](image/ChatGPT-GetApiKey.jpg)
 </details>
 
 
@@ -418,7 +450,7 @@ API模式下报错 错误码401
 </summary>
 账号额度用完了 或者试用时间到期了 检查自己账号额度以及时间是否没问题
 
-![](image/vvvv.jpg)
+![](image/ChatGPT-API-429.jpg)
 </details>
 
 <details> 
@@ -436,7 +468,7 @@ API模式下报错 错误码 404
 
 [https://openai-api.ikechan8370.com/v1](https://openai-api.ikechan8370.com/v1?spm=wolai.workspace.0.0.7b176cfbRYVb3t "https://openai-api.ikechan8370.com/v1")（如果未配置该项可以忽略）
 
-![](image/4A1B303E2F527CB363FC895480DE4668_TLVfN_VhWV.jpg)
+![](image/ChatGPT-API-404.jpg)
 </details>
 
 
@@ -446,7 +478,7 @@ API模式下报错 TimeoutError
 </summary>
 可以尝试挂反代或者去锅巴将超时时间调长
 
-![](image/oooo.png)
+![](image/ChatGPT-API-TimeoutError.png)
 </details>
 
 
@@ -456,7 +488,7 @@ API 3模式下报错 错误码 401
 </summary>
 Token过期了，重新获取一下Token就好了
 
-![](image/7E936F8817B3D421F044451104CD503B_Q9M7O9w2uA.jpg)
+![](image/ChatGPT-API3-401.jpg)
 </details>
 
 <details> 
@@ -465,7 +497,7 @@ API 3模式下报错 错误码 403
 </summary>
 可能是openai账号被封禁了 检查账号邮箱是否有openai官方给你发的邮件，如果有的话 那么就是账号被封禁了 ，只能换取没被封号的账号token
 
-![](image/QQ图片20230331200358_wUaUmBda3y.png)
+![](image/ChatGPT-API3-403.png)
 </details>
 
 <details> 
@@ -474,7 +506,7 @@ API 3模式下报错 错误码 500
 </summary>
 检查自己的Token是否设置正确，请设置access Token，因为session Token容易失效
 
-![](image/hhhh.jpg)
+![](image/ChatGPT-API3-500.jpg)
 </details>
 
 <details> 
@@ -516,7 +548,7 @@ Bing Sydney模式下 一直重复发抱歉
 </summary>
 可以试试结束对话 或者换个问题解决，比较玄学。（也可能是读取聊天消息导致）
 
-![](image/QQ图片20230331192155_LQEuaEVN-A.jpg)
+![](image/Sydney-ReSorry.jpg)
 </details>
 
 <details> 
@@ -525,7 +557,7 @@ Bing 自设定模式下重复发抱歉
 </summary>
 可尝试换句话继续对话，有点运气成分或者编写设定的一些问题存在，比如特殊的屏蔽词等。也可能是由读取聊天消息导致的
 
-![](image/QQ图片20230331193059_WXJWJe316J.jpg)
+![](image/Sydney-Custom-Sorry.jpg)
 
 如果持续重复抱歉 说明这段对话已经被结束了 只能发生 #结束对话 重新开启对话
 </details>
@@ -544,7 +576,7 @@ Bing模式使用设定时显示：当前为Bing模式，暂不支持使用设定
 </summary>
 请注意，目前Bing共有五种模式，如果想要使用设定请注意切换自设定模式 发送  #chatgpt必应切换自设定 即可
 
-![](image/QQ图片20230331191541_HaOq-sAw6X.jpg)
+![](image/Sydney-BingCustom-Cant.jpg)
 </details>
 
 <details> 
@@ -580,9 +612,8 @@ Bing模式下导入设定报错：Cannot destructrue prepetry 'prompt' of 'r.dat
 </summary>
 检查指令格式是否正确  #chatgpt导入设定＋设定名字   请注意：不要带有任何符号 包括用空格隔开导入设定和设定名字 会导致找不到该设定从而出现报错
 
-![](image/image_XUYB7wN2NB.png)
-![](image/image_lS6Da6NOZO.png)
-![](image/image_lS6Da6NOZO.png)
+![](image/Sydney-null-Error-1.png)
+![](image/Sydney-null-Error-1.png)
 </details>
 
 
@@ -595,7 +626,7 @@ Bing模式下导入设定报错：Cannot destructrue prepetry 'prompt' of 'r.dat
 
 也有可能是你设置了多Token 而其中一个过期了 删掉过期的那个即可
 
-![](image/QQ图片20230331200600_moBtqiw9CT.jpg)
+![](image/Sydney-Token-EXP.jpg)
 </details>
 
 
@@ -605,7 +636,7 @@ Bing 模式下报错：Oops, I think we 've reached the end of this conversation
 </summary>
 你可能用的不是Sydney或者自设定模式，其他三种模式有对话上限，可以发 #结束对话 重新创建对话
 
-![](image/pppp.png)
+![](image/Bing-NewTopic-Up.png)
 </details>
 
 
@@ -615,7 +646,7 @@ Bing 模式下报错：Oops, I think we 've reached the end of this conversation
 </summary>
 你的账号使用Sydney或者自设定模式过多 达到了日限流额  可等待12h后重新获取token再配置解决。
 
-![](image/QQ图片20230331185951_wvtXlnRd1p.jpg)
+![](image/Sydney-Request-Man.jpg)
 
 也可以换成还没有限流的号的token解决
 
@@ -637,7 +668,7 @@ Bing Sydney 模式下报错  创建Sydney对话失败：stadus code：404Not Fou
 </summary>
 更新之后锅巴内没有关闭思考提示这一选项，需要手动对机器人发送指令#chatgpt关闭问题确认
 
-![](image/QQ图片20230331193546_izeOlBqss1.jpg)
+![](image/Sydney-Sikaoing.jpg)
 </details>
 
 
@@ -647,7 +678,7 @@ vits语音角色如何更换
 </summary>
 对机器人发送#chatgpt设置语音角色＋角色名 可使用的角色可在vits仓库进行查看
 
-![](image/QQ图片20230331193654_7i6mpH6I8H.jpg)
+![](image/MuiscChanger.jpg)
 </details>
 
 <details> 
@@ -656,7 +687,7 @@ vits语音角色如何更换
 </summary>
 指令被土块抢了，去锅巴/群组配置/功能黑名单 找到土块的原神语音把它禁用了就可以了
 
-![](image/D43C725C87065FC9964F6790D418AEFB_sl4MChJrXx.jpg)
+![](image/Voice-Tukuai.jpg)
 </details>
 
 <details> 
@@ -689,7 +720,7 @@ API使用设定时容易忘记设定内容
 </summary>
 依赖掉了，去插件目录里执行pnpm install -p 装一下依赖，然后重启机器人就好了
 
-![](image/2304859B5C649C1C1297DEDFD0ECE038_A2SXrUIJYZ.jpg)
+![](image/No-package.jpg)
 </details>
 
 <details> 
@@ -740,7 +771,7 @@ pm2 update
 
     2.在配置界面中选择桌面C++环境开发，如果为了节省空间，右边的配置和我一样就行
 
-    ![](image/46541eecff51a97f_yutKLI7MWE.png)
+    ![](image/Voice-Node-Slilk.png)
 
     3.等待下载完成后重启电脑，选择登陆方式，然后选择搭建新项目，选择控制台应用
 
@@ -824,11 +855,11 @@ ki11 -9 PID #杀死占用端口的进程
 
     进入后点击入站规则，右侧点击新建规则，如下图
 
-    ![](image/QQ截图20230418185035_EtrIWONF-w.png)
+    ![](image/Port-1.png)
 
     选择端口，点下一页
 
-    ![](image/QQ截图20230418185054_nCaIeUG3Uh.png)
+    ![](image/Port-2.png)
 
     端口处输入要开放的端口，这里默认是3321，如果进行了修改请自行改为你设置的端口，接下来全选下一页即可。
 -   Linux服务器
@@ -864,13 +895,13 @@ ki11 -9 PID #杀死占用端口的进程
 
 如果是轻量应用服务器，可以在服务器的安全→防火墙中进行配置
 
-![](image/QQ截图20230418191327_Hld2WShOk0.png)
+![](image/Port-3.png)
 
 如果是ECS服务器，需要在实例的安全组中进行配置
 
-![](image/QQ截图20230418191747_WGvChKAfY_.png)
+![](image/Port-4.png)
 
-![](image/QQ截图20230418192013_cir24k5k5A.png)
+![](image/Port-5.png)
 </details>
 
 
@@ -894,7 +925,7 @@ Claude模式下报错：Error：An API error occurred is\_archived
 </summary>
 因为你在向一个已归档的频道发送信息，可以解除已归档的频道发送限制并重新发送消息
 
-![](image/yyyy.jpg)
+![](image/Claude-Error_CARCH.jpg)
 </details>
 
 
@@ -905,4 +936,4 @@ Claude模式下报错：Error：An API error occurred is\_archived
 
 ###   如果觉得教程对你有帮助的话请我喝瓶茉莉花茶吧QvQ
 
-![](image/QQ图片20230419175725_4JMPIcDwE1.png)
+![](image/donate.png)
