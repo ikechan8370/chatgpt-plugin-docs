@@ -12,4 +12,4 @@ author:
 
 # 语音API
 
-<VideoPlayer  src="https://storage.ikechan8370.com/default/video/4.%E8%AF%AD%E9%9F%B3api.mp4" />
+<VideoPlayer  src="https://cdn-v-content-01.ikechan8370.com/4.%E8%AF%AD%E9%9F%B3api.mp4" />

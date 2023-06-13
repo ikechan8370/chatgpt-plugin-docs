@@ -12,4 +12,4 @@ author:
 
 # 必应token
 
-<VideoPlayer  src="https://storage.ikechan8370.com/default/video/3.%E5%BF%85%E5%BA%94token%E6%95%99%E7%A8%8B.mp4" />
+<VideoPlayer  src="https://cdn-v-content-01.ikechan8370.com/3.%E5%BF%85%E5%BA%94token%E6%95%99%E7%A8%8B.mp4" />

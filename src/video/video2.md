@@ -12,4 +12,4 @@ author:
 
 # API Key和Token
 
-<VideoPlayer  src="https://storage.ikechan8370.com/default/video/2.apikey%E5%92%8Ctoken.mp4" />
+<VideoPlayer  src="https://cdn-v-content-01.ikechan8370.com/2.apikey%E5%92%8Ctoken.mp4" />
