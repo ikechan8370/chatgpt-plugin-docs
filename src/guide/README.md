@@ -59,34 +59,24 @@ QQ群：758447726 欢迎大佬们进群玩
 </details>
 
 <details> 
-<summary> icqq登陆失败：Token已失效</summary>
+<summary> [热门] icqq登陆失败：code 45</summary>
+将icqq升级到最新（本文撰写时最新为0.4.7）:
 
-可以优先尝试方法一，其他方法为方法一无效时的对应方案！并且所有方法都选择密码登录，并且最后一步选择手机验证码登陆
-
-如果登陆上去的话可以做个小习惯，把data目录里的device.json或者QQ号\_token文件备，喵崽是icqq文件夹备份一个，下次失效的时候直接丢进去就可以了
-
-4.16腾讯开始大规模封查机器人，可以先尝试将icqq版本拉至最新然后在config/config/qq.yaml文件夹里把platform改成6然后node app即可
 ```纯文本
-pnpm install icqq@0.3.1 -w
+pnpm add icqq@0.4.7 -w
 ```
-方法一：可以尝试将data目录下的device.json文件删除，windows用户注意将回收站内的一起删除，然后执行npm run login重新验证登录选择ipad＋密码登录
 
-方法二：如果报错误码45且方法一无效的话，请执行npm run login重新验证登录选择MacOS协议登录
-
-方法三：如果报错误码235的话，执行npm run login重新验证选择手表协议登录
-
-方法四：如果报错误码237的话可以降低icqq版本，在云崽根目录下执行
-```纯文本
-pnpm add icqq@0.0.31 -w
-```
-&#x20; 或者
-```纯文本
-pnpm add icqq@0.0.29 -w
+然后在config/config/bot.yaml中配置签名api：
 
 ```
-然后使用方法一进行登录
+sign_api_addr: http://localhost:8080/sign
+```
 
-方法五：如果报错误码238的话使用 npm run login 指令换到手表协议后再用 npm run login 指令换回ipad协议登录
+后面的地址可以根据[这个仓库](https://github.com/fuqiuluo/unidbg-fetch-qsign)自行搭建，也可以进群找大佬搭建好的
+
+协议优先选2、3、6，都不行的话只能冒险升级到8.9.63尝试新版本了，可以查看[icqq最新的提交（未正式发布）](https://github.com/icqqjs/icqq/commit/abf3fe32bfb1c4e5f6bc8ca070a3df0f3c83fe5a)修改
+
+升到63后选协议1或2一般即可，但依然存在冻结风险（一般可扫脸立即解冻）。
 
 </details>
 
