@@ -4,6 +4,8 @@ category:
   - 支持的模式
 tag:
   - 星火
+author:
+  - 憨憨
 ---
 
 # 星火
