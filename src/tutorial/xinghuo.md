@@ -33,9 +33,13 @@ author:
 
 插件安装地址：
 
-Google Chrome：https://chrome.google.com/webstore/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm?utm_source=ext_sidebar&hl=zh-CN
+Google Chrome：
 
-Edge：https://microsoftedge.microsoft.com/addons/detail/cookieeditor/neaplmfkghagebokkhpjpoebhdledlfi?hl=zh-CN
+https://chrome.google.com/webstore/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm?utm_source=ext_sidebar&hl=zh-CN
+
+Edge：
+
+https://microsoftedge.microsoft.com/addons/detail/cookieeditor/neaplmfkghagebokkhpjpoebhdledlfi?hl=zh-CN
 
 安装按下图操作
 
