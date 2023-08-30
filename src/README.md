@@ -187,6 +187,31 @@ highlights:
         icon: rss
         details: GPT3.5的速度，接近GPT-4的文本质量
         link: /tutorial/claude.html
+  - header: 星火
+    description: 基于讯飞星火大模型的API和官方网页版
+    image: /assets/image/layout.svg
+    bgImage: /images/2-light.svg
+    bgImageDark: /images/2-dark.svg
+    highlights:
+      - title: 完全免费
+        icon: blog
+        details: 只需注册申请星火账号
+        link: /tutorial/xinghuo.html
+
+      - title: 星火API
+        icon: dumbbell
+        details: 配置应用APIKey等即可使用
+        link: /tutorial/xinghuo.html
+
+      - title: 星火助手
+        icon: sitemap
+        details: 星火官方助手，使用更方便
+        link: /tutorial/xinghuo.html
+
+      - title: 响应速度飞快
+        icon: rss
+        details: 国内大厂AI，享受飞一般的感觉
+        link: /tutorial/xinghuo.html
 
 copyright: false
 footer: 使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a> 主题 | MIT 协议, 版权所有 © 2023 ikechan8370
