@@ -5,6 +5,8 @@ category:
 tag:
   - Bing
   - Sydney
+author:
+  - 憨憨
 ---
 
 # Bing/Sydney
@@ -39,7 +41,7 @@ copy(document.cookie.split(";").find(cookie=>cookie.trim().startsWith("_U=")).sp
 
 ### 方式四：手机获取
 
-同星火一样使用是使用Via浏览器，Via浏览器下载链接请看星火篇
+同星火一样是使用Via浏览器，Via浏览器下载链接请看星火篇
 
 首先需要切换成电脑模式（我这里不切换不显示`_U`,视情况而定）,然后访问必应登录你的必应账号，接着点击左上角选择`查看Cookies`,会出现很长一串字符，仔细看一下找到`_U`,复制出来
 
