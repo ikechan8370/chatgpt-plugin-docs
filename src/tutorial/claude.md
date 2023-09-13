@@ -4,6 +4,8 @@ category:
   - 支持的模式
 tag:
   - Claude
+author:
+  - 憨憨
 ---
 
 # Claude
