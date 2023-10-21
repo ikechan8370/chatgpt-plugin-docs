@@ -27,6 +27,7 @@ highlights:
       - title: 在Yunzai根目录下运行 <code>git clone --depth=1 https://github.com/ikechan8370/chatgpt-plugin.git ./plugins/chatgpt-plugin/ </code>安装插件
       - title: 执行 <code> pnpm i -P </code> 安装依赖
       - title: 使用插件自带的后台管理或锅巴插件进行多来源AI的配置
+      - title: 支持Yunzai、Miao-Yunzai和TRSS-Yunzai (非icqq环境部分功能不可用)
 
   - header: 支持多种大型生成式语言模型
     description: 同时兼具图像生成模型和其他娱乐小功能。更多AI持续接入中……

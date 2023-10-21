@@ -60,23 +60,18 @@ QQ群：758447726 欢迎大佬们进群玩
 
 <details> 
 <summary> [热门] icqq登陆失败：code 45</summary>
-将icqq升级到最新（本文撰写时最新为0.4.7）:
 
-```纯文本
-pnpm add icqq@0.4.7 -w
-```
+1. 若使用Miao崽+icqq，首先icqq更新到最新：`pnpm add -w icqq@latest`，在config/config/bot.yaml中配置ver和sign_api_addr，ver为版本号，需要和签名API配合，签名搭建参考 https://github.com/fuqiuluo/unidbg-fetch-qsign 或其他第三方教程。注意签名API有冻结风险，使用他人的签名风险更高。\
+此外可以用shamrock做签名api，按照shamrock（https://linxinrao.github.io/Shamrock/ ）教程部署后，开启高级API后签名api就是http://[地址]:5700/sign。此法可以支持前述项目不支持的更高版本签名。
 
-然后在config/config/bot.yaml中配置签名api：
+2. 其他方案：切换到chronocat或shamrock。\
+chronocat已经有较多教程：\
+   https://yunzai.icu/ \
+   https://ikechan8370.com/archives/1697175065045 \
+   https://blog.hanhanz.top/archives/801.html \
+   shamrock参考官方教程即可，需要自己解决部方式，安卓手机、模拟器等。
 
-```
-sign_api_addr: http://localhost:8080/sign
-```
 
-后面的地址可以根据[这个仓库](https://github.com/fuqiuluo/unidbg-fetch-qsign)自行搭建，也可以进群找大佬搭建好的
-
-协议优先选2、3、6，都不行的话只能冒险升级到8.9.63尝试新版本了，可以查看[icqq最新的提交（未正式发布）](https://github.com/icqqjs/icqq/commit/abf3fe32bfb1c4e5f6bc8ca070a3df0f3c83fe5a)修改
-
-升到63后选协议1或2一般即可，但依然存在冻结风险（一般可扫脸立即解冻）。
 
 </details>
 
@@ -569,12 +564,6 @@ Bing模式使用设定时显示：当前为Bing模式，暂不支持使用设定
 ![](image/Sydney-BingCustom-Cant.jpg)
 </details>
 
-<details> 
-<summary>
-Bing模式使用设定时显示：当前为Bing模式，暂不支持使用设定
-</summary>
-请注意，目前Bing共有五种模式，如果想要使用设定请注意切换自设定模式 发送  #chatgpt必应切换自设定 即可
-</details>
 
 <details> 
 <summary>
@@ -613,8 +602,9 @@ Bing模式下导入设定报错：Cannot destructrue prepetry 'prompt' of 'r.dat
  Bing模式下报错‭：UnauthorizedRequest: Sorry, you need to login first to access this service.
 </summary>
 可能是Bing token过期了  挂梯子登录重新获取再配置即可
+注意有时需要你先在网页上对话一次插件才可以使用
 
-也有可能是你设置了多Token 而其中一个过期了 删掉过期的那个即可
+也有可能是你设置了多Token 而其中一个过期了 删掉过期的那个即可（#chatgpt删除必应token）
 
 ![](image/Sydney-Token-EXP.jpg)
 </details>
