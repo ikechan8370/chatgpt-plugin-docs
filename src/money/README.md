@@ -1,7 +1,7 @@
 ---
 title: 赞助
 index: false
-icon: money
+icon: dollar
 category:
   - 赞助
 ---
