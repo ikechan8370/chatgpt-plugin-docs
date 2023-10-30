@@ -8,6 +8,8 @@ category:
 
 ## 目录
 
+目前插件支持的模型包括但不仅限于以下：
+
 - [OpenAI](openai.md)
 
 - [ChatGPT](chatgpt.md)

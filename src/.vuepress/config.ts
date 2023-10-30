@@ -6,7 +6,7 @@ export default defineUserConfig({
   base: "/",
 
   lang: "zh-CN",
-  title: "yunzai.chat",
+  title: "Yunzai.Chat",
   description: "云崽Chat",
 
   theme,

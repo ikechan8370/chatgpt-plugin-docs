@@ -1,7 +1,7 @@
 ---
 home: true
 icon: home
-title: Yunzai.Chat
+title: 首页
 #heroImage: /assets/image/l.png
 heroImage: https://ikechan8370.oss-cn-beijing.aliyuncs.com/images/232115814-de9a0633-371f-4733-8da0-dd6e912c8a1e.png
 bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
@@ -145,8 +145,8 @@ highlights:
   - header: Bing/Sydney
     description: 基于GPT-4的微软AI助手
     image: /images/bing.png
-    bgImage: /images/5-light.svg
-    bgImageDark: /images/5-dark.svg
+    bgImage: /images/3-light.svg
+    bgImageDark: /images/3-dark.svg
     highlights:
       - title: 完全免费
         icon: blog
