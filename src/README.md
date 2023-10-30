@@ -53,7 +53,7 @@ highlights:
         details: 基于GPT-4的微软AI助手
         link: /tutorial/bing.html
 
-      - title: Claude
+      - title: Claude / Claude2
         icon: code
         details: 来自Anthropic的Claude assistant
         link: /tutorial/claude.html
@@ -63,10 +63,15 @@ highlights:
         details: 讯飞星火大模型
         link: /tutorial/xinghuo.html
 
-      - title: Poe
+      - title: 通义千问
         icon: code
-        details: 来自Quora的Poe
-        link: /tutorial/poe.html
+        details: 来自阿里云的通义千问
+        link: /tutorial/qwen.html
+
+      - title: 文心一言
+        icon: clipboard-check
+        details: 来自百度的文心一言
+        link: /tutorial/wxyy.html
 
       - title: DALL·E 2
         icon: superscript
