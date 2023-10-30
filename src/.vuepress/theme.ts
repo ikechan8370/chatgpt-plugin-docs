@@ -25,8 +25,8 @@ export default hopeTheme({
   // sidebar
   sidebar,
 
-  footer: "默认页脚",
-
+  footer: '<a href="https://beian.miit.gov.cn/" target="_blank" style="color: #1a1a1a">京ICP备2023029236号</a>',
+  copyright: "版权所有 © 2023 ikechan8370",
   displayFooter: true,
 
 
@@ -40,13 +40,13 @@ export default hopeTheme({
     sitemap: true,
     seo: true,
     // You should generate and use your own comment service
-    comment: {
-      provider: "Giscus",
-      repo: "ikechan8370/chatgpt-plugin-discuss",
-      repoId: "R_kgDOJqKvdA",
-      category: "Announcements",
-      categoryId: "DIC_kwDOJqKvdM4CW4ih",
-    },
+    // comment: {
+    //   provider: "Giscus",
+    //   repo: "ikechan8370/chatgpt-plugin-discuss",
+    //   repoId: "R_kgDOJqKvdA",
+    //   category: "Announcements",
+    //   categoryId: "DIC_kwDOJqKvdM4CW4ih",
+    // },
     components: {
       components: [
         "VideoPlayer",

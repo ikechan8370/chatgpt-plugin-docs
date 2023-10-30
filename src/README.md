@@ -1,15 +1,15 @@
 ---
 home: true
 icon: home
-title: ChatGPT-Plugin文档
+title: Yunzai.Chat
 #heroImage: /assets/image/l.png
 heroImage: https://ikechan8370.oss-cn-beijing.aliyuncs.com/images/232115814-de9a0633-371f-4733-8da0-dd6e912c8a1e.png
 bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
   background-attachment: fixed
-heroText: ChatGPT-Plugin
-tagline: ChatGPT-Plugin For Yunzai-Bot
+heroText: Yunzai.Chat
+tagline: 在云崽机器人与流行的AI大模型畅聊
 actions:
   - text: 使用指南 💡
     link: ./tutorial/
@@ -213,8 +213,5 @@ highlights:
         icon: rss
         details: 国内大厂AI，享受飞一般的感觉
         link: /tutorial/xinghuo.html
-
-copyright: false
-footer: 使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a> 主题 | MIT 协议, 版权所有 © 2023 ikechan8370
 ---
 

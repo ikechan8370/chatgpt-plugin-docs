@@ -6,8 +6,8 @@ export default defineUserConfig({
   base: "/",
 
   lang: "zh-CN",
-  title: "ChatGPT-Plugin文档",
-  description: "ChatGPT-Plugin文档",
+  title: "yunzai.chat",
+  description: "云崽Chat",
 
   theme,
 
