@@ -108,11 +108,16 @@ highlights:
         icon: person-chalkboard
         details: 解决因网络等因素无法访问OpenAI API的问题
         link: /tutorial/openai.html
+      
+      - title: 智能模式
+        icon: blog
+        details: 彻底释放AI潜力，群内禁言、踢人、搜索等
+        link: /tutorial/openai.html
 
 
   - header: OpenAI ChatGPT
     description: 基于OpenAI官方网页版ChatGPT进行对话
-    image: /assets/image/features.svg
+    image: /images/openai.png
     bgImage: /images/1-light.svg
     bgImageDark: /images/1-dark.svg
     highlights:
@@ -139,13 +144,13 @@ highlights:
 
   - header: Bing/Sydney
     description: 基于GPT-4的微软AI助手
-    image: /assets/image/blog.svg
+    image: /images/bing.png
     bgImage: /images/5-light.svg
     bgImageDark: /images/5-dark.svg
     highlights:
       - title: 完全免费
         icon: blog
-        details: 仅需有效的微软账户，甚至无需登录也可进行聊天
+        details: 仅需有效的微软账户，支持多账户负载均衡
         link: /tutorial/bing.html
 
       - title: Sydney越狱
@@ -154,13 +159,13 @@ highlights:
         link: /tutorial/bing.html
 
       - title: 无限续杯
-        icon: home
-        details: 无视官方20条聊天上线的规则限制
+        icon: blog
+        details: 无视官方20条聊天上线的规则限制，支持pdf等文件解读
         link: /tutorial/bing.html
 
       - title: 内容生成
         icon: dumbbell
-        details: 支持聊天中的图像生成
+        details: 支持聊天中的图像生成和图像识别
         link: /tutorial/bing.html
         
       - title: 多种模式
@@ -169,8 +174,8 @@ highlights:
         link: /tutorial/bing.html
 
   - header: Claude
-    description: 来自Anthropic的Claude assistant，基于Slack Bot
-    image: /assets/image/advanced.svg
+    description: 来自Anthropic的Claude，支持Slack和Claude2
+    image: /images/Anthropic-AI.png
     bgImage: /images/4-light.svg
     bgImageDark: /images/4-dark.svg
     highlights:
@@ -186,11 +191,17 @@ highlights:
 
       - title: 更快的速度
         icon: rss
-        details: GPT3.5的速度，接近GPT-4的文本质量
+        details: GPT3.5的速度，不一样的文字风格体验
         link: /tutorial/claude.html
+        
+      - title: 超长上下文
+        icon: blog
+        details: claude2支持长达100k上下文聊天，支持pdf等文件解读
+        link: /tutorial/claude.html
+        
   - header: 星火
     description: 基于讯飞星火大模型的API和官方网页版
-    image: /assets/image/layout.svg
+    image: /images/xh.png
     bgImage: /images/2-light.svg
     bgImageDark: /images/2-dark.svg
     highlights:
@@ -213,5 +224,59 @@ highlights:
         icon: rss
         details: 国内大厂AI，享受飞一般的感觉
         link: /tutorial/xinghuo.html
+
+  - header: 通义千问
+    description: 基于阿里通义千问大模型qwen进行对话
+    image: /images/qwen.apng
+    bgImage: /images/6-light.svg
+    bgImageDark: /images/6-dark.svg
+    highlights:
+      - title: 免费试用
+        icon: comment-dots
+        details: 官方提供大量免费试用额度
+        link: /tutorial/qwen.html
+
+      - title: 双模型支持
+        icon: circle-info
+        details: qwen-plus和qwen-turbo
+        link: https://help.aliyun.com/zh/dashscope/developer-reference/api-details
+
+      - title: 快速响应
+        icon: lock
+        details: 国内部署，响应速度非凡
+        link: /tutorial/qwen.html
+
+      - title: 百变设定
+        icon: search
+        details: 支持完全自定义的设定和各种参数，自带夸克搜索
+        link: /tutorial/qwen.html
+        
+
+  - header: 文心一言
+    description: 来自百度的强大的国产语言模型，4.0版本抢鲜体验
+    image: /images/wxyy.png
+    bgImage: /images/5-light.svg
+    bgImageDark: /images/5-dark.svg
+    highlights:
+      - title: 免费试用
+        icon: comment-dots
+        details: 官方提供大量免费试用额度
+        link: /tutorial/wxyy.html
+
+      - title: 多模型支持
+        icon: circle-info
+        details: ERNIE-Bot和ERNIE-Bot-turbo
+        link: https://console.bce.baidu.com/qianfan/modelcenter/model/buildIn/list
+
+      - title: 快速响应
+        icon: lock
+        details: 国内部署，响应速度非凡
+        link: /tutorial/wxyy.html
+
+      - title: 智能模式
+        icon: search
+        details: ERNIE-Bot 4.0全新支持智能模式，与OpenAI一样享受被机器人踢出群聊的快乐吧
+        link: /tutorial/wxyy.html
+
 ---
 
