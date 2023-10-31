@@ -9,10 +9,11 @@ bgImageDark: /images/6-dark.svg
 bgImageStyle:
   background-attachment: fixed
 heroText: Yunzai.Chat
-tagline: '<div style="line-height: 40px">将<span style="font-weight: bolder">人工智能效率工具</span>嵌入你所熟悉的群组<br>与流行的多模态大型语言模型畅聊<br>简单，流畅，强大</div>'
+heroFullScreen: true
+tagline: 将人工智能效率工具嵌入你所熟悉的群组<br>与流行的多模态大型语言模型畅聊<br>简单，流畅，强大</p>
 actions:
   - text: 使用指南 💡
-    link: ./tutorial/
+    link: ./tutorial/install.html
     type: primary
 
   - text: " 仓库"
@@ -21,14 +22,23 @@ actions:
 
 highlights:
   - header: 强大、易用的多AI智能对话插件
+    description: <a href="https://github.com/ikechan8370/chatgpt-plugin/releases"><img src="https://camo.githubusercontent.com/3d63272c2d85265c71d785907757d976171b6428f628cc42f74f5c8b4c9bec61/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f7461672f696b656368616e383337302f636861746770742d706c7567696e3f6c6162656c3d6c617465737425323076657273696f6e266c6f676f3d676974687562"></a>
     image: /assets/image/box.svg
     bgImage: /images/3-light.svg
     bgImageDark: /images/3-dark.svg
     highlights:
-      - title: 在Yunzai根目录下运行 <code>git clone --depth=1 https://github.com/ikechan8370/chatgpt-plugin.git ./plugins/chatgpt-plugin/ </code>安装插件
-      - title: 执行 <code> pnpm i -P </code> 安装依赖
-      - title: 使用插件自带的工具箱或锅巴插件进行多来源AI的配置
-      - title: 支持Yunzai、Miao-Yunzai和TRSS-Yunzai (非icqq环境部分功能不可用)
+      - title: 安装
+        details: 在Yunzai根目录下运行 <code>git clone --depth=1 https://github.com/ikechan8370/chatgpt-plugin.git ./plugins/chatgpt-plugin/ </code>安装插件
+        icon: operate
+      - title: 依赖
+        details: 执行 <code> pnpm i -P </code> 安装依赖
+        icon: nodeJS
+      - title: 配置
+        details: 使用插件自带的工具箱或锅巴插件进行多来源AI的配置
+        icon: repair
+      - title: 兼容性
+        details: 支持Yunzai、Miao-Yunzai和TRSS-Yunzai (非icqq环境部分功能不可用)
+        icon: workingDirectory
 
   - header: 支持多种多模态大型生成式语言模型
     description: 多模态AI与群组互动的深入融合。更多AI持续接入中……
@@ -40,54 +50,54 @@ highlights:
       background-size: initial
     features:
       - title: OpenAI GPT-3.5/4
-        icon: clipboard-check
+        icon: map
         details: OpenAI Chat Completion API
-        link: /tutorial/openai.html
+        link: /tutorial/models/openai.html
 
       - title: OpenAI ChatGPT
-        icon: box-archive
+        icon: launch
         details: 网页版ChatGPT
-        link: /tutorial/chatgpt.html
+        link: /tutorial/models/chatgpt.html
 
       - title: 必应/Sydney
-        icon: table-columns
+        icon: hot
         details: 基于GPT-4的微软AI助手
-        link: /tutorial/bing.html
+        link: /tutorial/models/bing.html
 
       - title: Claude / Claude2
-        icon: code
+        icon: guide
         details: 来自Anthropic的Claude assistant和Claude2
-        link: /tutorial/claude.html
+        link: /tutorial/models/claude.html
 
       - title: 星火大模型
-        icon: align-center
+        icon: flower
         details: 讯飞星火大模型
-        link: /tutorial/xinghuo.html
+        link: /tutorial/models/xinghuo.html
 
       - title: 通义千问
-        icon: computer
+        icon: discover
         details: 来自阿里的通义千问
-        link: /tutorial/tyqw.html
+        link: /tutorial/models/qwen.html
         
       - title: 文心一言
-        icon: cloud
+        icon: dart
         details: 来自百度的文心一言
-        link: /tutorial/wxyy.html
+        link: /tutorial/models/wxyy.html
 
       - title: DALL·E
-        icon: superscript
+        icon: categoryselected
         details: OpenAI DALL·E 图像生成
-        link: /tutorial/dalle.html
+        link: /tutorial/models/dalle.html
 
       - title: 必应图像创造者
-        icon: quote-left
+        icon: style
         details: 微软必应基于DALL·E 3的AI绘图
-        link: /tutorial/bingdraw.html
+        link: /tutorial/models/bingdraw.html
 
       - title: 更多娱乐功能
-        icon: highlighter
+        icon: superscript
         details: 一些娱乐小功能
-        link: /tutorial/entertainment.html
+        link: /tutorial/models/entertainment.html
 
   - header: OpenAI GPT-3.5-turbo/4
     description: 基于OpenAI官方的Chat Completion API进行对话
@@ -96,29 +106,29 @@ highlights:
     bgImageDark: /images/5-dark.svg
     highlights:
       - title: 简单易用
-        icon: object-group
+        icon: share
         details: 仅需配置API Key开箱即用
-        link: /tutorial/openai.html
+        link: /tutorial/models/openai.html
 
       - title: 完全掌控
-        icon: circle-half-stroke
+        icon: shell
         details: 随心所欲定义模型参数
-        link: /tutorial/openai.html
+        link: /tutorial/models/openai.html
 
       - title: 角色扮演
-        icon: palette
+        icon: group
         details: 通过指定系统消息进行角色扮演
-        link: /tutorial/openai.html
+        link: /tutorial/models/openai.html
 
       - title: 支持代理和反代
-        icon: person-chalkboard
+        icon: launch
         details: 解决因网络等因素无法访问OpenAI API的问题
-        link: /tutorial/openai.html
+        link: /tutorial/models/openai.html
       
       - title: 智能模式
-        icon: robot
+        icon: process
         details: 彻底释放AI潜力，群内禁言、踢人、搜索等，联动AP、喵喵、星铁等其他插件
-        link: /tutorial/openai.html
+        link: /tutorial/models/openai.html
 
 
   - header: OpenAI ChatGPT
@@ -128,24 +138,24 @@ highlights:
     bgImageDark: /images/1-dark.svg
     highlights:
       - title: 完全免费
-        icon: comment-dots
+        icon: react
         details: 与官方保持同步，完全免费
-        link: /tutorial/chatgpt.html
+        link: /tutorial/models/chatgpt.html
 
       - title: 支持GPT-4
-        icon: circle-info
+        icon: script
         details: Plus账户可开启GPT-4选项
-        link: /tutorial/chatgpt.html
+        link: /tutorial/models/chatgpt.html
 
       - title: 官网同步
         icon: lock
         details: 聊天记录完全同步，每个用户对话隔离
-        link: /tutorial/chatgpt.html
+        link: /tutorial/models/chatgpt.html
 
       - title: 自建反代支持
-        icon: search
+        icon: stack
         details: 提供开源反代部署方法和免费公益反代服务器
-        link: /tutorial/chatgpt.html
+        link: /tutorial/models/chatgpt.html
 
 
   - header: 必应/Sydney
@@ -155,34 +165,34 @@ highlights:
     bgImageDark: /images/3-dark.svg
     highlights:
       - title: 完全免费
-        icon: blog
+        icon: template
         details: 仅需有效的微软账户，支持多账户负载均衡
-        link: /tutorial/bing.html
+        link: /tutorial/models/bing.html
 
       - title: Sydney越狱
-        icon: home
+        icon: subscript
         details: 提供完全的Jailbreak模式支持，我的Sydney由我自己掌控
-        link: /tutorial/bing.html
+        link: /tutorial/models/bing.html
 
       - title: 无限续杯
-        icon: blog
+        icon: stack
         details: 无视官方20条聊天上线的规则限制，支持pdf等文件解读
-        link: /tutorial/bing.html
+        link: /tutorial/models/bing.html
 
       - title: 内容生成
-        icon: dumbbell
+        icon: style
         details: 支持聊天中的图像生成和图像识别
-        link: /tutorial/bing.html
+        link: /tutorial/models/bing.html
         
       - title: 多种模式
         icon: search
         details: 原版精准/均衡/创意模式和额外的悉尼与自定义模式
-        link: /tutorial/bing.html
+        link: /tutorial/models/bing.html
         
       - title: 辅助验证
-        icon: person
+        icon: tool
         details: 自动应对和通过验证
-        link: /tutorial/bing.html
+        link: /tutorial/models/bing.html
       
 
   - header: Claude
@@ -192,24 +202,24 @@ highlights:
     bgImageDark: /images/4-dark.svg
     highlights:
       - title: 角色扮演
-        icon: dumbbell
+        icon: strong
         details: 封装多轮对话以支持自定义角色扮演设定
-        link: /tutorial/claude.html
+        link: /tutorial/models/claude.html
 
       - title: 完全免费
         icon: sitemap
         details: 仅需注册Slack并将Claude加入工作区
-        link: /tutorial/claude.html
+        link: /tutorial/models/claude.html
 
       - title: 更快的速度
         icon: rss
         details: GPT3.5的速度，不一样的文字风格体验
-        link: /tutorial/claude.html
+        link: /tutorial/models/claude.html
         
       - title: 超长上下文
         icon: blog
         details: claude2支持长达100k上下文聊天，支持pdf等文件解读
-        link: /tutorial/claude.html
+        link: /tutorial/models/claude.html
         
   - header: 星火
     description: 基于讯飞星火大模型的API和官方网页版
@@ -220,22 +230,22 @@ highlights:
       - title: 完全免费
         icon: blog
         details: 只需注册申请星火账号
-        link: /tutorial/xinghuo.html
+        link: /tutorial/models/xinghuo.html
 
       - title: 星火API
-        icon: dumbbell
+        icon: workingDirectory
         details: 配置应用APIKey等即可使用
-        link: /tutorial/xinghuo.html
+        link: /tutorial/models/xinghuo.html
 
       - title: 星火助手
         icon: sitemap
         details: 星火官方助手，使用更方便
-        link: /tutorial/xinghuo.html
+        link: /tutorial/models/xinghuo.html
 
       - title: 响应速度飞快
         icon: rss
         details: 国内大厂AI，享受飞一般的感觉
-        link: /tutorial/xinghuo.html
+        link: /tutorial/models/xinghuo.html
 
   - header: 通义千问
     description: 基于阿里通义千问大模型qwen进行对话
@@ -244,24 +254,24 @@ highlights:
     bgImageDark: /images/6-dark.svg
     highlights:
       - title: 免费试用
-        icon: comment-dots
+        icon: view
         details: 官方提供大量免费试用额度
-        link: /tutorial/qwen.html
+        link: /tutorial/models/qwen.html
 
       - title: 双模型支持
-        icon: circle-info
+        icon: write
         details: qwen-plus和qwen-turbo
         link: https://help.aliyun.com/zh/dashscope/developer-reference/api-details
 
       - title: 快速响应
         icon: lock
         details: 国内部署，响应速度非凡
-        link: /tutorial/qwen.html
+        link: /tutorial/models/qwen.html
 
       - title: 百变设定
         icon: search
         details: 支持完全自定义的设定和各种参数，自带夸克搜索
-        link: /tutorial/qwen.html
+        link: /tutorial/models/qwen.html
         
 
   - header: 文心一言
@@ -271,24 +281,24 @@ highlights:
     bgImageDark: /images/5-dark.svg
     highlights:
       - title: 免费试用
-        icon: comment-dots
+        icon: token
         details: 官方提供大量免费试用额度
-        link: /tutorial/wxyy.html
+        link: /tutorial/models/wxyy.html
 
       - title: 多模型支持
-        icon: circle-info
+        icon: type
         details: ERNIE-Bot和ERNIE-Bot-turbo
         link: https://console.bce.baidu.com/qianfan/modelcenter/model/buildIn/list
 
       - title: 快速响应
         icon: lock
         details: 国内部署，响应速度非凡
-        link: /tutorial/wxyy.html
+        link: /tutorial/models/wxyy.html
 
       - title: 智能模式
         icon: search
         details: ERNIE-Bot 4.0全新支持智能模式，与OpenAI一样享受被机器人踢出群聊的快乐吧
-        link: /tutorial/wxyy.html
+        link: /tutorial/models/wxyy.html
 
 ---
 

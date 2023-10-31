@@ -1,5 +1,5 @@
 ---
-icon: video
+icon: navigate
 category:
   - 视频教程
   - 视频

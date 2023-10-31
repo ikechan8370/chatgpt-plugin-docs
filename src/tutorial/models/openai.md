@@ -1,5 +1,5 @@
 ---
-icon: lock
+icon: creative
 category:
   - 支持的模式
 tag:
@@ -26,13 +26,13 @@ OpenAI 的 GPT-3.5/4 是一种基于深度学习的语言模型，它可以生�
 
 访问 https://platform.openai.com/account/api-keys 登录你的账号，并生成一个`secret API keys`复制留存
 
-![](../guide/image/OpenAI-APIKey.png)
+![](../../guide/image/OpenAI-APIKey.png)
 
 ## 配置APIKey
 
 对你的机器人发送`#chatgpt设置APIKey`
 
-![](../guide/image/SetOpenAI-APIKey.png)
+![](../../guide/image/SetOpenAI-APIKey.png)
 
 ## 必要设置
 
@@ -40,17 +40,17 @@ OpenAI 的 GPT-3.5/4 是一种基于深度学习的语言模型，它可以生�
 
 登录锅巴打开ChatGPT的设置界面，将`强制使用OpenAI反代`打开
 
-![](../guide/image/ForceAPIReverseProxy.png)
+![](../../guide/image/ForceAPIReverseProxy.png)
 
 ## 设定相关
 
 在这里还可以设置API使用的模型，开启智能模式体验更多有趣玩法
 
-![](../guide/image/OpenAI-API-Setting-1.png)
+![](../../guide/image/OpenAI-API-Setting-1.png)
 
 同时，你也可以喂给机器人设定，让它更满足你的喜好。
 
-![](../guide/image/OpenAI-API-Setting-2.png)
+![](../../guide/image/OpenAI-API-Setting-2.png)
 
 那么怎么获取更多设定呢
 
@@ -61,6 +61,6 @@ OpenAI 的 GPT-3.5/4 是一种基于深度学习的语言模型，它可以生�
 | #chatgpt使用设定+设定名 | 使用设定名对应的设定（需要根据不同模式使用设定） |
 | #chatgpt设定列表        | 查看你的机器人都有哪些设定                       |
 
-![](../guide/image/OpenAI-Style-1.png)
+![](../../guide/image/OpenAI-Style-1.png)
 
-![](../guide/image/OpenAI-Style-2.png)
+![](../../guide/image/OpenAI-Style-2.png)

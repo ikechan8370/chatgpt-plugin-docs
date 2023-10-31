@@ -1,5 +1,5 @@
 ---
-icon: lock
+icon: diagram
 category:
   - 支持的模式
 tag:
@@ -25,13 +25,13 @@ ChatGPT是由OpenAI开发的语言模型，具备强大的自然语言处理能�
 
 访问 https://chat.openai.com 并登录你的账号（**不登录是获取不了的**），接着再访问 https://chat.openai.com/api/auth/session 会出现下面界面将`Access Token`复制出来备用
 
-![](../guide/image/ChatGPT-Access-Token.png)
+![](../../guide/image/ChatGPT-Access-Token.png)
 
 ## 配置Access Token
 
 对你的机器人发送`#chatgpt设置token`
 
-![](../guide/image/SetChatGPT-Access-Token.png)
+![](../../guide/image/SetChatGPT-Access-Token.png)
 
 ## 说明
 

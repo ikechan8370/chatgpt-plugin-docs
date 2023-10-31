@@ -1,5 +1,5 @@
 ---
-icon: lock
+icon: flex
 category:
   - 支持的模式
 tag:
@@ -53,4 +53,4 @@ author:
 
 登录锅巴，`Ctrl + F`搜索`通义千问`，填写上面获得的`API-Key`，填写完成点击保存即可。
 
-![](../guide/image/SetQianWen.png)
+![](../../guide/image/SetQianWen.png)

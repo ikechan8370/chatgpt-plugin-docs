@@ -1,5 +1,5 @@
 ---
-icon: lock
+icon: flower
 category:
   - 支持的模式
 tag:

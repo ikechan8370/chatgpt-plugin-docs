@@ -11,7 +11,7 @@ export default hopeTheme({
     url: "https://ikechan8370.com",
   },
 
-  iconAssets: "fontawesome-with-brands",
+  iconAssets: "iconfont",
 
   logo: "/logo.png",
 

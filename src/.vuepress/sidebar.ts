@@ -4,22 +4,49 @@ export default sidebar({
   "/": [
     "",
     {
-      text: "AI模型",
-      icon: "laptop-code",
+      text: "文档",
+      icon: "community",
       prefix: "tutorial/",
       link: "tutorial/",
-      children: "structure",
+      collapsible: true,
+      children: [
+        {
+          text: "安装",
+          icon: "operate",
+          link: "install/"
+        },
+        {
+          text: "配置",
+          icon: "config",
+          link: "config/"
+        },
+        {
+          text: "AI模型",
+          icon: "animation",
+          link: "models/",
+          prefix: "models/",
+          children: [
+              "bing.md",
+              "chatgpt.md",
+              "claude.md",
+              "openai.md",
+              "qwen.md",
+              "wxyy.md",
+              "xinghuo.md"
+          ]
+        },
+      ]
     },
     {
       text: "常见问题",
-      icon: "book",
+      icon: "comment",
       prefix: "guide/",
       link: "guide/",
       children: "structure",
     },
     {
       text: "视频教程",
-      icon: "video",
+      icon: "play",
       prefix: "video/",
       link: "video/",
       children: "structure",

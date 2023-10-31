@@ -1,5 +1,5 @@
 ---
-icon: lock
+icon: like
 category:
   - 支持的模式
 tag:
@@ -28,7 +28,7 @@ author:
 
 访问 https://xinghuo.xfyun.cn/desk?bug=s 并登录你的账号，按下f12按照下面顺序操作
 
-![](../guide/image/Xinghuo-ssoSessionId-1.png)
+![](../../guide/image/Xinghuo-ssoSessionId-1.png)
 
 #### 方式二：使用Cookie-Editor插件获取
 
@@ -44,7 +44,7 @@ https://microsoftedge.microsoft.com/addons/detail/cookieeditor/neaplmfkghagebokk
 
 安装按下图操作
 
-![](../guide/image/Xinghuo-ssoSessionId-2.png)
+![](../../guide/image/Xinghuo-ssoSessionId-2.png)
 
 #### 方式三：手机获取
 
@@ -52,13 +52,13 @@ https://microsoftedge.microsoft.com/addons/detail/cookieeditor/neaplmfkghagebokk
 
 Via下载链接：https://www.123pan.com/s/qPtSVv-Lpb5v.html
 
-<img src="../guide/image/Xinghuo-ssoSessionId-3.png" style="zoom: 25%;" />
+<img src="../../guide/image/Xinghuo-ssoSessionId-3.png" style="zoom: 25%;" />
 
 ### 配置ssoSessionId
 
 对你的机器人发送`#chatgpt设置星火token`
 
-![](../guide/image/SetXinghuo-ssoSessionId.png)
+![](../../guide/image/SetXinghuo-ssoSessionId.png)
 
 ## 星火大模型V1.5/2.0/3.0
 
@@ -68,53 +68,53 @@ Via下载链接：https://www.123pan.com/s/qPtSVv-Lpb5v.html
 
    访问 https://console.xfyun.cn ，使用手机号验证码登录，按照提示设置密码之后出现以下界面，内容随便选择。
 
-![](../guide/image/Xinghuo-API-CreateApp.png)
+![](../../guide/image/Xinghuo-API-CreateApp.png)
 
 2. 实名认证
 
    点击上方的`立即实名认证`。
 
-![](../guide/image/Xinghuo-API-ShiMing-1.png)
+![](../../guide/image/Xinghuo-API-ShiMing-1.png)
 
 然后点击`个人实名认证`——`立即认证`。
 
-![](../guide/image/Xinghuo-API-ShiMing-2.png)
+![](../../guide/image/Xinghuo-API-ShiMing-2.png)
 
 姓名和身份证号这就不用说了，肯定要如实填写的，下面的`所属行业`、`所在地区`、`职业信息`随便填，填写完之后点击`提交认证`。
 
-![](../guide/image/Xinghuo-API-ShiMing-3.png)
+![](../../guide/image/Xinghuo-API-ShiMing-3.png)
 
 ### 申请API
 
 访问 https://xinghuo.xfyun.cn/sparkapi?scr=price ，点击`立即试用`，这里选择V2.0，V1.5、V2.0、V3.0操作一样,有需要也可以申请一下。
 
-![](../guide/image/Xinghuo-API-Apply-1.png)
+![](../../guide/image/Xinghuo-API-Apply-1.png)
 
 选择刚刚创建的应用，套餐默认免费就行，有实力可以付费。
 
-![](../guide/image/Xinghuo-API-Apply-2.png)
+![](../../guide/image/Xinghuo-API-Apply-2.png)
 
 划到最下面点击`确认下单`
 
-![](../guide/image/Xinghuo-API-Apply-3.png)
+![](../../guide/image/Xinghuo-API-Apply-3.png)
 
 这里`确认支付`是灰的，是因为没有设置支付密码，点击链接去设置（如果已经设置请忽略）
 
-![](../guide/image/Xinghuo-API-Apply-4.png)
+![](../../guide/image/Xinghuo-API-Apply-4.png)
 
 填写支付密码并确认支付
 
-![](../guide/image/Xinghuo-API-Apply-5.png)
+![](../../guide/image/Xinghuo-API-Apply-5.png)
 
 
 
 点击左上角`星火认知大模型`，选择`星火大模型V2.0`
 
-![](../guide/image/Xinghuo-API-Apply-6.png)
+![](../../guide/image/Xinghuo-API-Apply-6.png)
 
 这三个就是我们需要用到的信息，复制备用
 
-![](../guide/image/Xinghuo-API-Apply-7.png)
+![](../../guide/image/Xinghuo-API-Apply-7.png)
 
 ### 配置星火API
 
@@ -134,14 +134,14 @@ QQ就是机器人QQ，密码是系统后台密码。新版本工具箱可以直�
 
 如果你不知道网址和密码，请往下看
 
-![](../guide/image/SetXinghuo-API-1.png)
+![](../../guide/image/SetXinghuo-API-1.png)
 
 如果你不知道网址和密码或者你忘记了密码又或者没有设置过密码，没有关系，请对你的机器人发送`#chatgpt系统管理`和`#设置管理密码`,红色方框内就是你的服务器地址，可以先复制到浏览器试一下可不可以访问进去，如果访问不了，请去开放一下相应的端口号。
 
-![](../guide/image/SetXinghuo-API-3.png)
+![](../../guide/image/SetXinghuo-API-3.png)
 
 登录上之后，点击左侧的`插件配置`，然后在右侧的模式设置里面找到`星火`，并将刚刚获得的信息对应填进去，这样就可以使用了。
 
 注：星火三个模型使用的是同一套AppID、APISecret、APIKey。所以只需设置一次，以后仅需切换模式。
 
-![](../guide/image/SetXinghuo-API-2.png)
+![](../../guide/image/SetXinghuo-API-2.png)

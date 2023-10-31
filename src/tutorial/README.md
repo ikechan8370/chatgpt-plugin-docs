@@ -1,25 +1,14 @@
 ---
-title: AI模型
+title: 文档
 index: false
-icon: laptop-code
+icon: community
 category:
   - 支持模式
 ---
 
 ## 目录
 
-目前插件支持的模型包括但不仅限于以下：
+- [安装](install.md)
+- [配置](config.md)
+- [支持的模型](models/README.md)
 
-- [OpenAI](openai.md)
-
-- [ChatGPT](chatgpt.md)
-
-- [Bing/Sydney](bing.md)
-
-- [Claude](claude.md)
-
-- [星火](xinghuo.md)
-
-- [通义千问](qwen.md)
-
-- [文心一言](wxyy.md)

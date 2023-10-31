@@ -1,7 +1,7 @@
 ---
-title: 云崽ChatGPT-PLUGIN问题合集
+title: 问题合集
 index: false
-icon: book
+icon: comment
 author: 鹤望兰
 category:
   - 常见问题
@@ -10,6 +10,7 @@ category:
 -   \[收集＆编写:鹤望兰]
 -   QQ群：559567232
 -   如果觉得插件有意思的话请点一个star让作者有更多动力更新！
+- 本问题合集以ChatGPT-Plugin为主，同时兼顾部分云崽本体问题。
 ### 遇到报错优先尝试 #结束全部对话 或者执行 #chatgpt更新来确定你是最新版本
 如果问题合集没有你的问题或者无法解决你的问题，请发Issue或[进群](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=W1o7KVZpZL0dzyHQH71W4JMF4Mgj0_rr&authKey=hcLg%2F6y5Fr4BUNNF2khPLRb2nwahfXWvE1lhHr%2FK%2FEDlGFUBweLQt%2F%2BXxoUuya8J&noverify=0&group_code=559567232)询问。
 

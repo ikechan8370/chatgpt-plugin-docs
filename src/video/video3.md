@@ -1,5 +1,5 @@
 ---
-icon: video
+icon: windows
 category:
   - 视频教程
   - 视频

@@ -1,7 +1,7 @@
 ---
 title: 视频教程
 index: false
-icon: video
+icon: play
 category:
   - 教程
 ---

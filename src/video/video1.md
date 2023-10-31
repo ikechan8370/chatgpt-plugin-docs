@@ -1,5 +1,5 @@
 ---
-icon: video
+icon: network
 category:
   - 视频教程
   - 视频

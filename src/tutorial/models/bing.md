@@ -1,5 +1,5 @@
 ---
-icon: lock
+icon: windows
 category:
   - 支持的模式
 tag:
@@ -25,19 +25,19 @@ Sydney是一个基于人工智能的聊天模式，可以使用必应搜索和�
 copy(document.cookie.split(";").find(cookie=>cookie.trim().startsWith("_U=")).split("=")[1]);
 ````
 
-![](../guide/image/Bing-Token-1.png)
+![](../../guide/image/Bing-Token-1.png)
 
 ### 方式二：手动获取
 
 登录www.bing.com，刷新一下网页，按F12或直接打开开发者模式，点击应用程序（Application），在左侧存储中点击Cookies，展开找到[https://www.bing.com](https://www.bing.com/) 项，在右侧列表Name项下找到`_U`，`_U`的value即为必应Token
 
-![](../guide/image/Bing-Token-2.png)
+![](../../guide/image/Bing-Token-2.png)
 
 ### 方式三：插件获取
 
 [获取插件请看星火篇](xinghuo.html#%E6%96%B9%E5%BC%8F%E4%BA%8C-%E4%BD%BF%E7%94%A8cookie-editor%E6%8F%92%E4%BB%B6%E8%8E%B7%E5%8F%96)，访问必应登录你的账号，点击右上角插件，找到`_U`,它的Value就是必应Token
 
-![](../guide/image/Bing-Token-3.png)
+![](../../guide/image/Bing-Token-3.png)
 
 ### 方式四：手机获取
 
@@ -45,13 +45,13 @@ copy(document.cookie.split(";").find(cookie=>cookie.trim().startsWith("_U=")).sp
 
 首先需要切换成电脑模式（我这里不切换不显示`_U`,视情况而定）,然后访问必应登录你的必应账号，接着点击左上角选择`查看Cookies`,会出现很长一串字符，仔细看一下找到`_U`,复制出来
 
-![](../guide/image/Bing-Token-4.png)
+![](../../guide/image/Bing-Token-4.png)
 
 ## 配置Bing Token
 
 对你的机器人发送`#chatgpt设置必应token`
 
-![](../guide/image/SetBing-Token.png)
+![](../../guide/image/SetBing-Token.png)
 
 ### 其他指令
 
