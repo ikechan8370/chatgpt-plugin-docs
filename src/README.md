@@ -3,19 +3,20 @@ home: true
 icon: home
 title: 首页
 #heroImage: /assets/image/l.png
-heroImage: https://ikechan8370.oss-cn-beijing.aliyuncs.com/images/232115814-de9a0633-371f-4733-8da0-dd6e912c8a1e.png
-bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
-bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
+heroImage: /images/eli.png
+bgImage: /images/6-light.svg
+bgImageDark: /images/6-dark.svg
 bgImageStyle:
   background-attachment: fixed
 heroText: Yunzai.Chat
-tagline: 在云崽机器人与流行的AI大模型畅聊
+tagline: '<div style="line-height: 40px">将<span style="font-weight: bolder">人工智能效率工具</span>嵌入你所熟悉的群组<br>与流行的多模态大型语言模型畅聊<br>简单，流畅，强大</div>'
 actions:
   - text: 使用指南 💡
     link: ./tutorial/
     type: primary
 
-  - text: 源码
+  - text: " 仓库"
+    icon: code
     link: https://github.com/ikechan8370/chatgpt-plugin
 
 highlights:
@@ -26,11 +27,11 @@ highlights:
     highlights:
       - title: 在Yunzai根目录下运行 <code>git clone --depth=1 https://github.com/ikechan8370/chatgpt-plugin.git ./plugins/chatgpt-plugin/ </code>安装插件
       - title: 执行 <code> pnpm i -P </code> 安装依赖
-      - title: 使用插件自带的后台管理或锅巴插件进行多来源AI的配置
+      - title: 使用插件自带的工具箱或锅巴插件进行多来源AI的配置
       - title: 支持Yunzai、Miao-Yunzai和TRSS-Yunzai (非icqq环境部分功能不可用)
 
-  - header: 支持多种大型生成式语言模型
-    description: 同时兼具图像生成模型和其他娱乐小功能。更多AI持续接入中……
+  - header: 支持多种多模态大型生成式语言模型
+    description: 多模态AI与群组互动的深入融合。更多AI持续接入中……
     image: /assets/image/features.svg
     bgImage: /images/2-light.svg
     bgImageDark: /images/2-dark.svg
@@ -48,14 +49,14 @@ highlights:
         details: 网页版ChatGPT
         link: /tutorial/chatgpt.html
 
-      - title: Bing/Sydney
+      - title: 必应/Sydney
         icon: table-columns
         details: 基于GPT-4的微软AI助手
         link: /tutorial/bing.html
 
       - title: Claude
         icon: code
-        details: 来自Anthropic的Claude assistant
+        details: 来自Anthropic的Claude assistant和Claude2
         link: /tutorial/claude.html
 
       - title: 星火大模型
@@ -63,19 +64,24 @@ highlights:
         details: 讯飞星火大模型
         link: /tutorial/xinghuo.html
 
-      - title: Poe
-        icon: code
-        details: 来自Quora的Poe
-        link: /tutorial/poe.html
+      - title: 通义千问
+        icon: computer
+        details: 来自阿里的通义千问
+        link: /tutorial/tyqw.html
+        
+      - title: 文心一言
+        icon: cloud
+        details: 来自百度智能云的文心一言
+        link: /tutorial/wxyy.html
 
-      - title: DALL·E 2
+      - title: DALL·E
         icon: superscript
-        details: OpenAI DALL·E 2
+        details: OpenAI DALL·E 图像生成
         link: /tutorial/dalle.html
 
       - title: 必应图像创造者
         icon: quote-left
-        details: 微软必应基于DALL·E的AI绘图
+        details: 微软必应基于DALL·E 3的AI绘图
         link: /tutorial/bingdraw.html
 
       - title: 更多娱乐功能
@@ -83,7 +89,7 @@ highlights:
         details: 一些娱乐小功能
         link: /tutorial/entertainment.html
 
-  - header: OpenAI GPT-3.5/4
+  - header: OpenAI GPT-3.5-turbo/4
     description: 基于OpenAI官方的Chat Completion API进行对话
     image: /assets/image/layout.svg
     bgImage: /images/5-light.svg
@@ -110,8 +116,8 @@ highlights:
         link: /tutorial/openai.html
       
       - title: 智能模式
-        icon: blog
-        details: 彻底释放AI潜力，群内禁言、踢人、搜索等
+        icon: robot
+        details: 彻底释放AI潜力，群内禁言、踢人、搜索等，联动AP、喵喵、星铁等其他插件
         link: /tutorial/openai.html
 
 
@@ -142,7 +148,7 @@ highlights:
         link: /tutorial/chatgpt.html
 
 
-  - header: Bing/Sydney
+  - header: 必应/Sydney
     description: 基于GPT-4的微软AI助手
     image: /images/bing.png
     bgImage: /images/3-light.svg
@@ -172,6 +178,12 @@ highlights:
         icon: search
         details: 原版精准/均衡/创意模式和额外的悉尼与自定义模式
         link: /tutorial/bing.html
+        
+      - title: 辅助验证
+        icon: person
+        details: 自动应对和通过验证
+        link: /tutorial/bing.html
+      
 
   - header: Claude
     description: 来自Anthropic的Claude，支持Slack和Claude2
