@@ -35,13 +35,13 @@ copy(document.cookie.split(";").find(cookie=>cookie.trim().startsWith("_U=")).sp
 
 ### 方式三：插件获取
 
-[获取插件请看星火篇](https://chatgptplugin.ikechan8370.com/tutorial/xinghuo.html#%E6%96%B9%E5%BC%8F%E4%BA%8C-%E4%BD%BF%E7%94%A8cookie-editor%E6%8F%92%E4%BB%B6%E8%8E%B7%E5%8F%96)，访问必应登录你的账号，点击右上角插件，找到`_U`,它的Value就是必应Token
+[获取插件请看星火篇](xinghuo.html#%E6%96%B9%E5%BC%8F%E4%BA%8C-%E4%BD%BF%E7%94%A8cookie-editor%E6%8F%92%E4%BB%B6%E8%8E%B7%E5%8F%96)，访问必应登录你的账号，点击右上角插件，找到`_U`,它的Value就是必应Token
 
 ![](../guide/image/Bing-Token-3.png)
 
 ### 方式四：手机获取
 
-[Via浏览器下载链接请看星火篇](https://chatgptplugin.ikechan8370.com/tutorial/xinghuo.html#%E6%96%B9%E5%BC%8F%E4%B8%89-%E6%89%8B%E6%9C%BA%E8%8E%B7%E5%8F%96)
+[Via浏览器下载链接请看星火篇](xinghuo.html#%E6%96%B9%E5%BC%8F%E4%B8%89-%E6%89%8B%E6%9C%BA%E8%8E%B7%E5%8F%96)
 
 首先需要切换成电脑模式（我这里不切换不显示`_U`,视情况而定）,然后访问必应登录你的必应账号，接着点击左上角选择`查看Cookies`,会出现很长一串字符，仔细看一下找到`_U`,复制出来
 

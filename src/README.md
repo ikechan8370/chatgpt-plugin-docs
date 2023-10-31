@@ -54,7 +54,7 @@ highlights:
         details: 基于GPT-4的微软AI助手
         link: /tutorial/bing.html
 
-      - title: Claude
+      - title: Claude / Claude2
         icon: code
         details: 来自Anthropic的Claude assistant和Claude2
         link: /tutorial/claude.html
@@ -71,7 +71,7 @@ highlights:
         
       - title: 文心一言
         icon: cloud
-        details: 来自百度智能云的文心一言
+        details: 来自百度的文心一言
         link: /tutorial/wxyy.html
 
       - title: DALL·E

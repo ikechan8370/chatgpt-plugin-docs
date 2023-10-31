@@ -124,6 +124,8 @@ Via下载链接：https://www.123pan.com/s/qPtSVv-Lpb5v.html
 
 方式二：用ChatGPT-Plugin工具箱
 
+PC端建议访问自己的服务器ip加3321端口号进行配置。
+
 访问你的工具箱地址（服务器ip加3321端口）或现成的工具箱地址 https://tools.alcedogroup.com，登录你的账号。如果网页没办法登录，去QQ群：`559567232`的群文件夹下载PC端工具箱（`ChatGPT-Tools`），界面如下：
 
 服务器就是你的服务器ip加3321端口，前提是没有修改端口号。
@@ -139,5 +141,7 @@ QQ就是机器人QQ，密码是系统后台密码。新版本工具箱可以直�
 ![](../guide/image/SetXinghuo-API-3.png)
 
 登录上之后，点击左侧的`插件配置`，然后在右侧的模式设置里面找到`星火`，并将刚刚获得的信息对应填进去，这样就可以使用了。
+
+注：星火三个模型使用的是同一套AppID、APISecret、APIKey。所以只需设置一次，以后仅需切换模式。
 
 ![](../guide/image/SetXinghuo-API-2.png)

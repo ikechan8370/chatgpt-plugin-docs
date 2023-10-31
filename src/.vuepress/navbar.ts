@@ -5,6 +5,7 @@ export default navbar([
   "/tutorial/",
   "/guide/",
   "/video/",
+  "/money/",
   {
     text: "插件项目源码",
     icon: "code",
