@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://chatgptplugin.ikechan8370.com/sitemap.xml
+Sitemap: https://www.yunzai.chat/sitemap.xml
