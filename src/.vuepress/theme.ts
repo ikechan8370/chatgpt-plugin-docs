@@ -4,7 +4,7 @@ import sidebar from "./sidebar.js";
 import { searchProPlugin } from "vuepress-plugin-search-pro";
 
 export default hopeTheme({
-  hostname: "https://chatgptplugin.ikechan8370.com",
+  hostname: "https://www.yunzai.chat/",
 
   author: {
     name: "ikechan8370",
