@@ -9,6 +9,6 @@ export default navbar([
   {
     text: "插件项目源码",
     icon: "code",
-    link: "https://github.com/ikechan8370/chatgpt-plugin",
+    link: "https://gitee.com/ikechan/chatgpt-plugin",
   },
 ]);

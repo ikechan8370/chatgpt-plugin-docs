@@ -15,7 +15,7 @@ export default hopeTheme({
 
   logo: "/logo.png",
 
-  repo: "ikechan8370/chatgpt-plugin-docs",
+  // repo: "ikechan8370/chatgpt-plugin-docs",
 
   docsDir: "src",
 

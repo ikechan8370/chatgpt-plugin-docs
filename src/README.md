@@ -10,7 +10,7 @@ bgImageStyle:
   background-attachment: fixed
 heroText: Yunzai.Chat
 heroFullScreen: true
-tagline: 将人工智能效率工具嵌入你所熟悉的群组<br>与流行的多模态大型语言模型畅聊<br>简单，流畅，强大</p>
+tagline: 将人工智能效率工具嵌入你所熟悉的群组<br>与流行的多模态大型语言模型畅聊<br>强大，开源，免费</p>
 actions:
   - text: 使用指南 💡
     link: ./tutorial/install.html
@@ -18,17 +18,17 @@ actions:
 
   - text: " 仓库"
     icon: code
-    link: https://github.com/ikechan8370/chatgpt-plugin
+    link: https://gitee.com/ikechan/chatgpt-plugin
 
 highlights:
   - header: 强大、易用的多AI智能对话插件
-    description: <a href="https://github.com/ikechan8370/chatgpt-plugin/releases"><img src="https://camo.githubusercontent.com/3d63272c2d85265c71d785907757d976171b6428f628cc42f74f5c8b4c9bec61/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f7461672f696b656368616e383337302f636861746770742d706c7567696e3f6c6162656c3d6c617465737425323076657273696f6e266c6f676f3d676974687562"></a>
+    description: <a href="https://gitee.com/ikechan/chatgpt-plugin/releases"><img src="https://camo.githubusercontent.com/3d63272c2d85265c71d785907757d976171b6428f628cc42f74f5c8b4c9bec61/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f7461672f696b656368616e383337302f636861746770742d706c7567696e3f6c6162656c3d6c617465737425323076657273696f6e266c6f676f3d676974687562"></a>
     image: /assets/image/box.svg
     bgImage: /images/3-light.svg
     bgImageDark: /images/3-dark.svg
     highlights:
       - title: 安装
-        details: 在Yunzai根目录下运行 <code>git clone --depth=1 https://github.com/ikechan8370/chatgpt-plugin.git ./plugins/chatgpt-plugin/ </code>安装插件
+        details: 在Yunzai根目录下运行 <code>git clone --depth=1 https://gitee.com/ikechan/chatgpt-plugin.git ./plugins/chatgpt-plugin/ </code>安装插件
         icon: operate
       - title: 依赖
         details: 执行 <code> pnpm i -P </code> 安装依赖
@@ -119,11 +119,6 @@ highlights:
         icon: group
         details: 通过指定系统消息进行角色扮演
         link: /tutorial/models/openai.html
-
-      - title: 支持代理和反代
-        icon: launch
-        details: 解决因网络等因素无法访问OpenAI API的问题
-        link: /tutorial/models/openai.html
       
       - title: 智能模式
         icon: process
@@ -154,7 +149,7 @@ highlights:
 
       - title: 自建反代支持
         icon: stack
-        details: 提供开源反代部署方法和免费公益反代服务器
+        details: 提供开源反代部署方法和免费反代服务器
         link: /tutorial/models/chatgpt.html
 
 
