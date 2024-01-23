@@ -72,7 +72,7 @@ QQ群：758447726 欢迎大佬们进群玩
 本项目提供一些自建API，使用前请浏览器访问以确保可用性，仅保证icqq可用，不保证时刻可用：
 
 8.9.88：http://sign8988.yunzai.chat/sign?key=chatgpt-plugin
-8.9.88：http://sign8990.yunzai.chat/sign?key=chatgpt-plugin
+8.9.90：http://sign8990.yunzai.chat/sign?key=chatgpt-plugin
 8.9.96：http://sign8996.yunzai.chat/sign?key=chatgpt-plugin
 9.0.8：http://sign908.yunzai.chat/sign?key=chatgpt-plugin
 9.0.15：http://sign915.yunzai.chat/sign?key=chatgpt-plugin （请确保你的icqq支持）
