@@ -31,3 +31,9 @@ Gemini Pro支持32k上下文，同时支持Function Call，因此支持本插件
 
 虽然Gemini Pro不支持system instruction，但其扮演能力很强，可以直接发送设定，也可以通过插件设定`#chatgpt使用设定xxx`来将设定插入首轮对话。
 
+## 相关指令
+
+1. #gemini
+2. #chatgpt切换gemini
+3. #chatgpt设置GeminiKey
+4. #双子星结束（全部）对话

@@ -88,6 +88,10 @@ highlights:
         icon: computer
         details: Google最新推出的强大模型
         link: /tutorial/models/gemini.html
+      - title: 智谱清言
+        icon: computer
+        details: 北京智谱华章科技的智谱清言
+        link: /tutorial/models/zhipu.html
   
       - title: DALL·E
         icon: categoryselected
@@ -241,8 +245,8 @@ highlights:
   - header: 必应/Sydney
     description: 基于GPT-4的微软AI助手
     image: /images/bing.png
-    bgImage: /images/3-light.svg
-    bgImageDark: /images/3-dark.svg
+    bgImage: /images/10-light.svg
+    bgImageDark: /images/10-dark.svg
     highlights:
       - title: 完全免费
         icon: template
@@ -302,9 +306,9 @@ highlights:
         link: /tutorial/models/claude.html
         
   - header: Gemini
-    description: 来自Anthropic的Claude，支持Slack和Claude2
+    description: 来自谷歌的双子星
     image: /images/google.png
-    bgImage: /images/1-light.svg
+    bgImage: /images/9-light.svg
     bgImageDark: /images/1-dark.svg
     highlights:
       - title: 角色扮演
@@ -327,6 +331,29 @@ highlights:
         details: 基于function_call的花式调用
         link: /tutorial/models/gemini.html
 
+  - header: 智谱清言
+    description: 来自北京智谱华章科技有限公司的智谱清言
+    image: /images/zhipu.png
+    bgImage: /images/12-light.svg
+    bgImageDark: /images/9-dark.svg
+    highlights:
+      - title: 免费使用
+        icon: sitemap
+        details: 从智谱清言获取登录chatglm_refresh_token
+        link: https://www.chatglm.cn
 
+      - title: 支持AI画图
+        icon: blog
+        details: 根据用户的文字描述智能绘制出图片
+        link: /tutorial/models/zhipu.html
+
+      - title: 支持联网
+        icon: speed
+        details: AI帮你搜罗全网信息，能够快速响应用户需求，帮助用户分析总结信息的智能助手。
+        link: /tutorial/models/zhipu.html
+
+      - title: 更快的速度
+        icon: speed
+        details: 飞一样的速度，不一样的文字风格体验
+        link: /tutorial/models/zhipu.html
 ---
-

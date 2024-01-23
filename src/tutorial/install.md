@@ -50,4 +50,10 @@ node-silk需要具备编译环境，用于高清语音合成。根据经验，ub
 1. 使用指令`#chatgpt设置APIKey`配置OpenAI的Key，然后直接开始对话。(获取密钥参考[OpenAI配置](/tutorial/models/openai.html#获取api-key))
 2. 使用指令`#chatgpt设置必应token`配置必应_U Cookie，然后使用`#chatgpt切换必应`切换到必应模式，即可开始对话。（Cookie获取方式可以参考[必应配置](/tutorial/models/bing.html)）
 
+## 更新插件
+
+1. #chatgpt（强制）更新
+
+
+
 如果你已经做好准备，想要体验更多功能，可以前往下一页参考[配置](/tutorial/config.html)使用。

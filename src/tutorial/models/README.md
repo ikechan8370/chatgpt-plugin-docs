@@ -22,4 +22,6 @@ category:
 
 - [通义千问](qwen.md)
 
+- [智谱清言](zhipu.md)
+
 - [文心一言](wxyy.md) (待支持)

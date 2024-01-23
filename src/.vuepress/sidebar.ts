@@ -33,7 +33,8 @@ export default sidebar({
               "qwen.md",
               "wxyy.md",
               "xinghuo.md",
-              "gemini.md"
+              "gemini.md",
+              "zhipu.md"
           ]
         },
       ]

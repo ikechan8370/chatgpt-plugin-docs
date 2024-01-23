@@ -69,3 +69,9 @@ alert(localStorage.getItem("lastActiveOrg"))
 登录锅巴，`Ctrl + F`搜索`Claude2`，填写上面获得的信息，填写完成点击保存即可。
 
 ![](../../guide/image/SetClaude2.png)
+
+## 相关指令
+
+1. #claude2
+2. #chatgpt切换claude2
+3. #克劳德2结束（全部）对话
