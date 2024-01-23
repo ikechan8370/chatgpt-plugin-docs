@@ -118,11 +118,11 @@ Via下载链接：https://www.123pan.com/s/qPtSVv-Lpb5v.html
 
 ### 配置星火API
 
-方式一：用锅巴
+#### 方式一：用锅巴
 
 锅巴里找到对应的选项填入即可
 
-方式二：用ChatGPT-Plugin工具箱
+#### 方式二：用ChatGPT-Plugin工具箱
 
 PC端建议访问自己的服务器ip加3321端口号进行配置。
 
@@ -145,3 +145,11 @@ QQ就是机器人QQ，密码是系统后台密码。新版本工具箱可以直�
 注：星火三个模型使用的是同一套AppID、APISecret、APIKey。所以只需设置一次，以后仅需切换模式。
 
 ![](../../guide/image/SetXinghuo-API-2.png)
+
+## 相关指令
+
+1. #xh
+2. #chatgpt切换星火
+3. #chatgpt设置星火token
+4. #chatgpt设置星火模型
+5. #星火结束（全部）对话

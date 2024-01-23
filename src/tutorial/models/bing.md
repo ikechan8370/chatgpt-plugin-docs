@@ -53,10 +53,16 @@ copy(document.cookie.split(";").find(cookie=>cookie.trim().startsWith("_U=")).sp
 
 ![](../../guide/image/SetBing-Token.png)
 
-### 其他指令
+## 相关指令
 
-| 指令                  | 说明                |
-| --------------------- | ------------------- |
-| #chatgpt查看必应Token | 查看设置的所有Token |
-| #chatgpt删除必应Token | 删除设置的Token     |
+1. #bing
+2. #chatgpt切换必应
+3. #chatgpt设置必应Token
 
+4. #chatgpt查看必应Token
+
+5. #chatgpt删除必应Token
+6. #chatgpt（开启|关闭）建议回复
+7. #chatgpt设置必应设定
+8. #chatgpt必应(开启|禁用)搜索
+9. #必应结束（全部）对话

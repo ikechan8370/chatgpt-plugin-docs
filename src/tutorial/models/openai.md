@@ -64,3 +64,17 @@ OpenAI 的 GPT-3.5/4 是一种基于深度学习的语言模型，它可以生�
 ![](../../guide/image/OpenAI-Style-1.png)
 
 ![](../../guide/image/OpenAI-Style-2.png)
+
+## 相关指令
+
+1. #chat1
+2. #openai余额
+3. #chatgpt切换API
+4. #chatgpt模型列表
+5. #chatgpt设置APIKey
+6. #chatgpt设置API设定
+7. #chatgpt查看API设定
+8. #chatgpt设置API模型
+9. #chatgpt设置API反代
+10. #API结束（全部）对话
+7. #chatgpt(开启|关闭)智能模式

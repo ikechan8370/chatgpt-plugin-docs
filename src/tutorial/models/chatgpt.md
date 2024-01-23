@@ -36,3 +36,14 @@ ChatGPT是由OpenAI开发的语言模型，具备强大的自然语言处理能�
 ## 说明
 
 访问（https://chat.openai.com/api/auth/session ）页面之后如果是空的{}，说明没有登录，要登录ChatGPT（ https://chat.openai.com ）而不是OpenAI。
+
+## 相关指令
+
+1. #chat3
+2. #chatgpt切换API3
+3. #chatgpt设置token
+4. #chatgpt清空队列
+5. #chatgpt移出队列首位
+6. #chatgpt加入对话
+7. #chatgpt删除对话
+8. #API3结束（全部）对话

@@ -54,3 +54,9 @@ author:
 登录锅巴，`Ctrl + F`搜索`通义千问`，填写上面获得的`API-Key`，填写完成点击保存即可。
 
 ![](../../guide/image/SetQianWen.png)
+
+## 相关指令
+
+1. #qwen
+2. #chatgpt切换通义千问
+3. #通义千问（结束全部对话）
