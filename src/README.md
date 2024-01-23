@@ -22,7 +22,7 @@ actions:
 
 highlights:
   - header: 强大、易用的多AI智能对话插件
-    description: <a href="https://gitee.com/ikechan/chatgpt-plugin/releases"><img src="https://camo.githubusercontent.com/3d63272c2d85265c71d785907757d976171b6428f628cc42f74f5c8b4c9bec61/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f7461672f696b656368616e383337302f636861746770742d706c7567696e3f6c6162656c3d6c617465737425323076657273696f6e266c6f676f3d676974687562"></a>
+    description: <a href="https://gitee.com/ikechan/chatgpt-plugin/releases"><img src="https://img.shields.io/github/v/tag/ikechan8370/chatgpt-plugin?label=latest%20version&logo=github"></a>
     image: /assets/image/box.svg
     bgImage: /images/3-light.svg
     bgImageDark: /images/3-dark.svg
@@ -34,10 +34,10 @@ highlights:
         details: 执行 <code> pnpm i -P </code> 安装依赖
         icon: nodeJS
       - title: 配置
-        details: 使用插件自带的工具箱或锅巴插件进行多来源AI的配置
+        details: 使用插件自带的工具箱或<a href="https://gitee.com/guoba-yunzai/guoba-plugin">锅巴插件</a>进行多来源AI的配置
         icon: repair
       - title: 兼容性
-        details: 支持Yunzai、Miao-Yunzai和TRSS-Yunzai (非icqq环境部分功能不可用)
+        details: 支持<a href="https://gitee.com/Le-niao/Yunzai-Bot">Yunzai</a>、<a href="https://gitee.com/yoimiya-kokomi/Miao-Yunzai">Miao-Yunzai</a>和<a href="https://github.com/TimeRainStarSky/Yunzai">TRSS-Yunzai</a> (非icqq环境部分功能不可用)，以及<a href="https://gitee.com/xiaoye12123/ws-plugin">ws-plugin</a>、<a href="https://github.com/Zyy955/Lain-plugin">Lain-Plugin</a>等适配器
         icon: workingDirectory
 
   - header: 支持多种多模态大型生成式语言模型
@@ -49,6 +49,21 @@ highlights:
       background-repeat: repeat
       background-size: initial
     features:
+      - title: 星火大模型
+        icon: flower
+        details: 讯飞星火大模型
+        link: /tutorial/models/xinghuo.html
+
+      - title: 通义千问
+        icon: discover
+        details: 来自阿里的通义千问
+        link: /tutorial/models/qwen.html
+        
+      - title: 文心一言
+        icon: dart
+        details: 来自百度的文心一言
+        link: /tutorial/models/wxyy.html
+
       - title: OpenAI GPT-3.5/4
         icon: map
         details: OpenAI Chat Completion API
@@ -68,22 +83,12 @@ highlights:
         icon: guide
         details: 来自Anthropic的Claude assistant和Claude2
         link: /tutorial/models/claude.html
-
-      - title: 星火大模型
-        icon: flower
-        details: 讯飞星火大模型
-        link: /tutorial/models/xinghuo.html
-
-      - title: 通义千问
-        icon: discover
-        details: 来自阿里的通义千问
-        link: /tutorial/models/qwen.html
         
-      - title: 文心一言
-        icon: dart
-        details: 来自百度的文心一言
-        link: /tutorial/models/wxyy.html
-
+      - title: Gemini Pro
+        icon: computer
+        details: Google最新推出的强大模型
+        link: /tutorial/models/gemini.html
+  
       - title: DALL·E
         icon: categoryselected
         details: OpenAI DALL·E 图像生成
@@ -99,7 +104,87 @@ highlights:
         details: 一些娱乐小功能
         link: /tutorial/models/entertainment.html
 
-  - header: OpenAI GPT-3.5-turbo/4
+
+  - header: 星火大模型
+    description: 基于讯飞星火大模型API
+    image: /images/xh.png
+    bgImage: /images/5-light.svg
+    bgImageDark: /images/5-dark.svg
+    highlights:
+      - title: 完全免费
+        icon: blog
+        details: 只需注册申请星火账号
+        link: /tutorial/models/xinghuo.html
+
+      - title: 星火API
+        icon: workingDirectory
+        details: 配置应用APIKey等即可使用
+        link: /tutorial/models/xinghuo.html
+
+      - title: 星火助手
+        icon: sitemap
+        details: 星火官方助手，使用更方便
+        link: /tutorial/models/xinghuo.html
+
+      - title: 响应速度飞快
+        icon: speed
+        details: 国内大厂AI，享受飞一般的感觉
+        link: /tutorial/models/xinghuo.html
+
+  - header: 通义千问
+    description: 基于阿里通义千问大模型qwen进行对话
+    image: /images/qwen.apng
+    bgImage: /images/6-light.svg
+    bgImageDark: /images/6-dark.svg
+    highlights:
+      - title: 免费试用
+        icon: view
+        details: 官方提供大量免费试用额度
+        link: /tutorial/models/qwen.html
+
+      - title: 双模型支持
+        icon: write
+        details: qwen-plus和qwen-turbo
+        link: https://help.aliyun.com/zh/dashscope/developer-reference/api-details
+
+      - title: 快速响应
+        icon: speed
+        details: 国内部署，响应速度非凡
+        link: /tutorial/models/qwen.html
+
+      - title: 百变设定
+        icon: search
+        details: 支持完全自定义的设定和各种参数，自带夸克搜索
+        link: /tutorial/models/qwen.html
+
+
+  - header: 文心一言
+    description: 来自百度的强大的国产语言模型，4.0版本抢鲜体验
+    image: /images/wxyy.png
+    bgImage: /images/2-light.svg
+    bgImageDark: /images/2-dark.svg
+    highlights:
+      - title: 免费试用
+        icon: token
+        details: 官方提供大量免费试用额度
+        link: /tutorial/models/wxyy.html
+
+      - title: 多模型支持
+        icon: type
+        details: ERNIE-Bot和ERNIE-Bot-turbo
+        link: https://console.bce.baidu.com/qianfan/modelcenter/model/buildIn/list
+
+      - title: 快速响应
+        icon: speed
+        details: 国内部署，响应速度非凡
+        link: /tutorial/models/wxyy.html
+
+      - title: 智能模式
+        icon: search
+        details: ERNIE-Bot 4.0全新支持智能模式，与OpenAI一样享受被机器人踢出群聊的快乐吧
+        link: /tutorial/models/wxyy.html
+    
+  - header: GPT-3.5-turbo/4
     description: 基于OpenAI官方的Chat Completion API进行对话
     image: /assets/image/layout.svg
     bgImage: /images/5-light.svg
@@ -126,8 +211,8 @@ highlights:
         link: /tutorial/models/openai.html
 
 
-  - header: OpenAI ChatGPT
-    description: 基于OpenAI官方网页版ChatGPT进行对话
+  - header: ChatGPT
+    description: 基于网页版ChatGPT进行对话
     image: /images/openai.png
     bgImage: /images/1-light.svg
     bgImageDark: /images/1-dark.svg
@@ -171,7 +256,7 @@ highlights:
 
       - title: 无限续杯
         icon: stack
-        details: 无视官方20条聊天上线的规则限制，支持pdf等文件解读
+        details: 无视官方20条聊天上线的规则限制，支持pdf、word等文件解读
         link: /tutorial/models/bing.html
 
       - title: 内容生成
@@ -207,93 +292,41 @@ highlights:
         link: /tutorial/models/claude.html
 
       - title: 更快的速度
-        icon: rss
-        details: GPT3.5的速度，不一样的文字风格体验
+        icon: speed
+        details: 飞一样的速度，不一样的文字风格体验
         link: /tutorial/models/claude.html
         
       - title: 超长上下文
         icon: blog
-        details: claude2支持长达100k上下文聊天，支持pdf等文件解读
+        details: claude2支持长达100k上下文聊天，支持pdf、word等文件解读
         link: /tutorial/models/claude.html
         
-  - header: 星火
-    description: 基于讯飞星火大模型的API和官方网页版
-    image: /images/xh.png
-    bgImage: /images/2-light.svg
-    bgImageDark: /images/2-dark.svg
+  - header: Gemini
+    description: 来自Anthropic的Claude，支持Slack和Claude2
+    image: /images/google.png
+    bgImage: /images/1-light.svg
+    bgImageDark: /images/1-dark.svg
     highlights:
-      - title: 完全免费
-        icon: blog
-        details: 只需注册申请星火账号
-        link: /tutorial/models/xinghuo.html
+      - title: 角色扮演
+        icon: strong
+        details: Gemini特有的无审查模式，尽情扮演任何角色
+        link: /tutorial/models/gemini.html
 
-      - title: 星火API
-        icon: workingDirectory
-        details: 配置应用APIKey等即可使用
-        link: /tutorial/models/xinghuo.html
-
-      - title: 星火助手
+      - title: 免费使用
         icon: sitemap
-        details: 星火官方助手，使用更方便
-        link: /tutorial/models/xinghuo.html
+        details: 从Google AI Studio获取免费API密钥
+        link: https://makersuite.google.com/app/apikey
 
-      - title: 响应速度飞快
-        icon: rss
-        details: 国内大厂AI，享受飞一般的感觉
-        link: /tutorial/models/xinghuo.html
+      - title: 更快的速度
+        icon: speed
+        details: 飞一样的速度，不一样的文字风格体验
+        link: /tutorial/models/gemini.html
 
-  - header: 通义千问
-    description: 基于阿里通义千问大模型qwen进行对话
-    image: /images/qwen.apng
-    bgImage: /images/6-light.svg
-    bgImageDark: /images/6-dark.svg
-    highlights:
-      - title: 免费试用
-        icon: view
-        details: 官方提供大量免费试用额度
-        link: /tutorial/models/qwen.html
+      - title: 支持智能模式
+        icon: blog
+        details: 基于function_call的花式调用
+        link: /tutorial/models/gemini.html
 
-      - title: 双模型支持
-        icon: write
-        details: qwen-plus和qwen-turbo
-        link: https://help.aliyun.com/zh/dashscope/developer-reference/api-details
-
-      - title: 快速响应
-        icon: lock
-        details: 国内部署，响应速度非凡
-        link: /tutorial/models/qwen.html
-
-      - title: 百变设定
-        icon: search
-        details: 支持完全自定义的设定和各种参数，自带夸克搜索
-        link: /tutorial/models/qwen.html
-        
-
-  - header: 文心一言
-    description: 来自百度的强大的国产语言模型，4.0版本抢鲜体验
-    image: /images/wxyy.png
-    bgImage: /images/5-light.svg
-    bgImageDark: /images/5-dark.svg
-    highlights:
-      - title: 免费试用
-        icon: token
-        details: 官方提供大量免费试用额度
-        link: /tutorial/models/wxyy.html
-
-      - title: 多模型支持
-        icon: type
-        details: ERNIE-Bot和ERNIE-Bot-turbo
-        link: https://console.bce.baidu.com/qianfan/modelcenter/model/buildIn/list
-
-      - title: 快速响应
-        icon: lock
-        details: 国内部署，响应速度非凡
-        link: /tutorial/models/wxyy.html
-
-      - title: 智能模式
-        icon: search
-        details: ERNIE-Bot 4.0全新支持智能模式，与OpenAI一样享受被机器人踢出群聊的快乐吧
-        link: /tutorial/models/wxyy.html
 
 ---
 

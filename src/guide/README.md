@@ -49,8 +49,44 @@ https://github.com/hewang1an/StarRail-plugin
 QQ群：758447726 欢迎大佬们进群玩
 
 </details>
+<details>
+
+<summary>
+过码token
+</summary>
+
+[点此购买](https://afdian.net/item/cee6d21ca2d211eeb0a252540025c377)
+支持[loveMys](https://github.com/babanbang/loveMys)和其他闭源插件。
+
+</details>
 
 ## 正题
+
+
+
+<details> 
+<summary> 【热门】 icqq登陆失败：code 45</summary>
+
+1. 若使用Miao崽+icqq，首先icqq更新到最新：`pnpm add -w icqq@latest`，在`config/config/bot.yaml`中配置`ver`和`sign_api_addr`，`ver`为版本号，需要和签名API配合，签名原仓库已删库，请参考其他第三方教程。注意签名API有冻结风险。
+
+本项目提供一些自建API，使用前请浏览器访问以确保可用性，仅保证icqq可用，不保证时刻可用：
+
+8.9.88：http://sign8988.yunzai.chat/sign?key=chatgpt-plugin
+8.9.96：http://sign8996.yunzai.chat/sign?key=chatgpt-plugin
+9.0.8：http://sign908.yunzai.chat/sign?key=chatgpt-plugin
+9.0.15：http://sign915.yunzai.chat/sign?key=chatgpt-plugin （请确保你的icqq支持）
+
+2. 其他方案：切换到chronocat或shamrock。\
+chronocat已经有较多教程：\
+   https://yunzai.icu/ \
+   https://ikechan8370.com/archives/1697175065045 \
+   https://blog.hanhanz.top/archives/801.html 
+
+   [shamrock](https://github.com/whitechi73/OpenShamrock)参考官方教程即可，需要自己解决部署方式，安卓手机、模拟器等。
+
+
+
+</details>
 
 <details> 
 <summary>
@@ -58,24 +94,6 @@ QQ群：758447726 欢迎大佬们进群玩
 </summary>
 > 可以挂服务器上，可以去阿里云白嫖七个月
 </details>
-
-<details> 
-<summary> [热门] icqq登陆失败：code 45</summary>
-
-1. 若使用Miao崽+icqq，首先icqq更新到最新：`pnpm add -w icqq@latest`，在config/config/bot.yaml中配置ver和sign_api_addr，ver为版本号，需要和签名API配合，签名搭建参考 https://github.com/fuqiuluo/unidbg-fetch-qsign 或其他第三方教程。注意签名API有冻结风险，使用他人的签名风险更高。\
-此外可以用shamrock做签名api，按照shamrock（https://linxinrao.github.io/Shamrock/ ）教程部署后，开启高级API后签名api就是http://[地址]:5700/sign。此法可以支持前述项目不支持的更高版本签名。
-
-2. 其他方案：切换到chronocat或shamrock。\
-chronocat已经有较多教程：\
-   https://yunzai.icu/ \
-   https://ikechan8370.com/archives/1697175065045 \
-   https://blog.hanhanz.top/archives/801.html \
-   shamrock参考官方教程即可，需要自己解决部方式，安卓手机、模拟器等。
-
-
-
-</details>
-
 
 <details> 
 <summary>

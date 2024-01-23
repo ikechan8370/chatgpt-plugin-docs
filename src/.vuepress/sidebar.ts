@@ -32,7 +32,8 @@ export default sidebar({
               "openai.md",
               "qwen.md",
               "wxyy.md",
-              "xinghuo.md"
+              "xinghuo.md",
+              "gemini.md"
           ]
         },
       ]
